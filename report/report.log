@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.7.1-161114-2.6 (utf8.euc) (TeX Live 2016/Debian) (preloaded format=platex 2018.9.22)  1 NOV 2018 17:32
+This is e-pTeX, Version 3.14159265-p3.7.1-161114-2.6 (utf8.euc) (TeX Live 2016/Debian) (preloaded format=platex 2018.9.22)  1 NOV 2018 21:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -248,7 +248,13 @@ LaTeX Font Info:    Font shape `JY1/hgt/m/n' will be
 (Font)              scaled to size 11.09619pt on input line 57.
 [1
 
-] [2] [3]
+] [2]
+Underfull \hbox (badness 1067) in paragraph at lines 91--92
+[]\JY1/hmc/m/n/10 現地測量図は以下の手順でデジタル化し \OT1/cmr/m/n/10 GIS \JY1
+/hmc/m/n/10 デ ータを作成した 。 投影系 ・ 座標系は
+ []
+
+[3]
 File: fig/haitizu_tate.pdf Graphic file (type pdf)
  <fig/haitizu_tate.pdf>
 
@@ -270,7 +276,7 @@ File: fig/F04.pdf Graphic file (type pdf)
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 File: fig/F18.pdf Graphic file (type pdf)
-<fig/F18.pdf>
+<fig/F18.pdf> [4]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
@@ -284,7 +290,7 @@ File: fig/F08.pdf Graphic file (type pdf)
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[4] [5] [6] [7] [8] [9] (./report.aux)
+[5] [6] [7] [8] [9] [10] (./report.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
@@ -298,4 +304,4 @@ Here is how much of TeX's memory you used:
  269 hyphenation exceptions out of 8191
  25i,6n,22p,374b,991s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on report.dvi (9 pages, 10192 bytes).
+Output written on report.dvi (10 pages, 12996 bytes).
