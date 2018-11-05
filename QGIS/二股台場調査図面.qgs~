@@ -30,7 +30,10 @@
     <layer-tree-layer expanded="1" name="北側高位塹壕" source="../data/ikou.gpkg|layername=zangou" providerKey="ogr" id="確認済み塹壕_f23e7730_549e_4172_999c_52ca1c54b28b" checked="Qt::Unchecked">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="1" name="北側低位塹壕" source="../data/ikou.gpkg|layername=zangou" providerKey="ogr" id="北側高位塹壕_03ddad30_4aea_441f_9e70_50de7e83c5a3" checked="Qt::Checked">
+    <layer-tree-layer expanded="1" name="北側低位塹壕" source="../data/ikou.gpkg|layername=zangou" providerKey="ogr" id="北側高位塹壕_03ddad30_4aea_441f_9e70_50de7e83c5a3" checked="Qt::Unchecked">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer expanded="1" name="南側塹壕" source="../data/ikou.gpkg|layername=zangou" providerKey="ogr" id="北側低位塹壕_eab27f5f_05ea_4dce_b03c_90bb328c8197" checked="Qt::Checked">
       <customproperties/>
     </layer-tree-layer>
     <layer-tree-layer expanded="0" name="data event" source="../data/data.gpkg|layername=event" providerKey="ogr" id="data_be6adf32_e582_44b1_b859_d5f5da9e8302" checked="Qt::Unchecked">
@@ -64,25 +67,25 @@
         <property key="expandedLegendNodes"/>
       </customproperties>
     </layer-tree-layer>
-    <layer-tree-layer expanded="1" name="f09" source="../grass/F09/f09.shp" providerKey="ogr" id="f09_3546aab8_16cb_4567_a943_f83488bab739" checked="Qt::Checked">
+    <layer-tree-layer expanded="1" name="f09" source="../grass/F09/f09.shp" providerKey="ogr" id="f09_3546aab8_16cb_4567_a943_f83488bab739" checked="Qt::Unchecked">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="1" name="f12" source="../grass/F12/f12.shp" providerKey="ogr" id="f12_0214eeba_4aa8_4663_a78e_a2a882d001ed" checked="Qt::Checked">
+    <layer-tree-layer expanded="1" name="f12" source="../grass/F12/f12.shp" providerKey="ogr" id="f12_0214eeba_4aa8_4663_a78e_a2a882d001ed" checked="Qt::Unchecked">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="1" name="f08" source="../grass/F08/f08.shp" providerKey="ogr" id="f08_ff2f3c56_9fbb_476a_8fc2_43c74e7eee97" checked="Qt::Checked">
+    <layer-tree-layer expanded="1" name="f08" source="../grass/F08/f08.shp" providerKey="ogr" id="f08_ff2f3c56_9fbb_476a_8fc2_43c74e7eee97" checked="Qt::Unchecked">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="1" name="f18" source="../grass/F18/f18.shp" providerKey="ogr" id="f18_b0d4115a_e3a0_4a8b_a40f_03d6db84bbde" checked="Qt::Unchecked">
+    <layer-tree-layer expanded="1" name="f18" source="../grass/F18/f18.shp" providerKey="ogr" id="f18_b0d4115a_e3a0_4a8b_a40f_03d6db84bbde" checked="Qt::Checked">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="1" name="f04" source="../grass/F04/f04.shp" providerKey="ogr" id="f04_023fbd8d_c0c5_41d9_8584_dd7633e8634b" checked="Qt::Unchecked">
+    <layer-tree-layer expanded="1" name="f04" source="../grass/F04/f04.shp" providerKey="ogr" id="f04_023fbd8d_c0c5_41d9_8584_dd7633e8634b" checked="Qt::Checked">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="1" name="f03" source="../grass/F03/f03.shp" providerKey="ogr" id="f03_a865c334_fd75_415f_8fed_fe47845640d4" checked="Qt::Unchecked">
+    <layer-tree-layer expanded="1" name="f03" source="../grass/F03/f03.shp" providerKey="ogr" id="f03_a865c334_fd75_415f_8fed_fe47845640d4" checked="Qt::Checked">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="1" name="f01" source="../grass/F01/f01.shp" providerKey="ogr" id="f01_5ad5852c_47aa_4ea8_bf17_29a240baeaa2" checked="Qt::Unchecked">
+    <layer-tree-layer expanded="1" name="f01" source="../grass/F01/f01.shp" providerKey="ogr" id="f01_5ad5852c_47aa_4ea8_bf17_29a240baeaa2" checked="Qt::Checked">
       <customproperties/>
     </layer-tree-layer>
     <layer-tree-layer expanded="0" name="ikou" source="../data/ikou.gpkg|layername=ikou" providerKey="ogr" id="ikou_0ea2a246_0db8_43fa_b0d2_0a9a205cd437" checked="Qt::Checked">
@@ -194,6 +197,7 @@
       <item>ikou_zangou_73d30140_a9ee_4df0_9fdb_8f433607652e</item>
       <item>確認済み塹壕_f23e7730_549e_4172_999c_52ca1c54b28b</item>
       <item>北側高位塹壕_03ddad30_4aea_441f_9e70_50de7e83c5a3</item>
+      <item>北側低位塹壕_eab27f5f_05ea_4dce_b03c_90bb328c8197</item>
     </custom-order>
   </layer-tree-group>
   <snapping-settings unit="1" enabled="0" intersection-snapping="0" type="1" mode="2" tolerance="12">
@@ -213,6 +217,7 @@
       <layer-setting enabled="0" units="1" type="1" id="北側高位塹壕_03ddad30_4aea_441f_9e70_50de7e83c5a3" tolerance="12"/>
       <layer-setting enabled="0" units="1" type="1" id="f03_a865c334_fd75_415f_8fed_fe47845640d4" tolerance="12"/>
       <layer-setting enabled="0" units="1" type="1" id="ikou_0b9b97b2_deb0_4af7_b445_cdab5b1f0f89" tolerance="12"/>
+      <layer-setting enabled="0" units="1" type="1" id="北側低位塹壕_eab27f5f_05ea_4dce_b03c_90bb328c8197" tolerance="12"/>
       <layer-setting enabled="0" units="1" type="1" id="f11_218f2ddc_dbf5_499c_bf4e_a037f4db857d" tolerance="12"/>
       <layer-setting enabled="0" units="1" type="1" id="f18_b0d4115a_e3a0_4a8b_a40f_03d6db84bbde" tolerance="12"/>
       <layer-setting enabled="0" units="1" type="1" id="ikou_0ea2a246_0db8_43fa_b0d2_0a9a205cd437" tolerance="12"/>
@@ -269,9 +274,14 @@
         <legendlayerfile isInOverview="0" visible="0" layerid="確認済み塹壕_f23e7730_549e_4172_999c_52ca1c54b28b"/>
       </filegroup>
     </legendlayer>
-    <legendlayer drawingOrder="-1" name="北側低位塹壕" open="true" checked="Qt::Checked" showFeatureCount="0">
+    <legendlayer drawingOrder="-1" name="北側低位塹壕" open="true" checked="Qt::Unchecked" showFeatureCount="0">
       <filegroup hidden="false" open="true">
-        <legendlayerfile isInOverview="0" visible="1" layerid="北側高位塹壕_03ddad30_4aea_441f_9e70_50de7e83c5a3"/>
+        <legendlayerfile isInOverview="0" visible="0" layerid="北側高位塹壕_03ddad30_4aea_441f_9e70_50de7e83c5a3"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer drawingOrder="-1" name="南側塹壕" open="true" checked="Qt::Checked" showFeatureCount="0">
+      <filegroup hidden="false" open="true">
+        <legendlayerfile isInOverview="0" visible="1" layerid="北側低位塹壕_eab27f5f_05ea_4dce_b03c_90bb328c8197"/>
       </filegroup>
     </legendlayer>
     <legendlayer drawingOrder="-1" name="data event" open="false" checked="Qt::Unchecked" showFeatureCount="0">
@@ -309,39 +319,39 @@
         <legendlayerfile isInOverview="0" visible="0" layerid="f15_ccd5ae30_a14e_4349_8ecb_deabd359bb3d"/>
       </filegroup>
     </legendlayer>
-    <legendlayer drawingOrder="-1" name="f09" open="true" checked="Qt::Checked" showFeatureCount="0">
+    <legendlayer drawingOrder="-1" name="f09" open="true" checked="Qt::Unchecked" showFeatureCount="0">
       <filegroup hidden="false" open="true">
-        <legendlayerfile isInOverview="0" visible="1" layerid="f09_3546aab8_16cb_4567_a943_f83488bab739"/>
+        <legendlayerfile isInOverview="0" visible="0" layerid="f09_3546aab8_16cb_4567_a943_f83488bab739"/>
       </filegroup>
     </legendlayer>
-    <legendlayer drawingOrder="-1" name="f12" open="true" checked="Qt::Checked" showFeatureCount="0">
+    <legendlayer drawingOrder="-1" name="f12" open="true" checked="Qt::Unchecked" showFeatureCount="0">
       <filegroup hidden="false" open="true">
-        <legendlayerfile isInOverview="0" visible="1" layerid="f12_0214eeba_4aa8_4663_a78e_a2a882d001ed"/>
+        <legendlayerfile isInOverview="0" visible="0" layerid="f12_0214eeba_4aa8_4663_a78e_a2a882d001ed"/>
       </filegroup>
     </legendlayer>
-    <legendlayer drawingOrder="-1" name="f08" open="true" checked="Qt::Checked" showFeatureCount="0">
+    <legendlayer drawingOrder="-1" name="f08" open="true" checked="Qt::Unchecked" showFeatureCount="0">
       <filegroup hidden="false" open="true">
-        <legendlayerfile isInOverview="0" visible="1" layerid="f08_ff2f3c56_9fbb_476a_8fc2_43c74e7eee97"/>
+        <legendlayerfile isInOverview="0" visible="0" layerid="f08_ff2f3c56_9fbb_476a_8fc2_43c74e7eee97"/>
       </filegroup>
     </legendlayer>
-    <legendlayer drawingOrder="-1" name="f18" open="true" checked="Qt::Unchecked" showFeatureCount="0">
+    <legendlayer drawingOrder="-1" name="f18" open="true" checked="Qt::Checked" showFeatureCount="0">
       <filegroup hidden="false" open="true">
-        <legendlayerfile isInOverview="0" visible="0" layerid="f18_b0d4115a_e3a0_4a8b_a40f_03d6db84bbde"/>
+        <legendlayerfile isInOverview="0" visible="1" layerid="f18_b0d4115a_e3a0_4a8b_a40f_03d6db84bbde"/>
       </filegroup>
     </legendlayer>
-    <legendlayer drawingOrder="-1" name="f04" open="true" checked="Qt::Unchecked" showFeatureCount="0">
+    <legendlayer drawingOrder="-1" name="f04" open="true" checked="Qt::Checked" showFeatureCount="0">
       <filegroup hidden="false" open="true">
-        <legendlayerfile isInOverview="0" visible="0" layerid="f04_023fbd8d_c0c5_41d9_8584_dd7633e8634b"/>
+        <legendlayerfile isInOverview="0" visible="1" layerid="f04_023fbd8d_c0c5_41d9_8584_dd7633e8634b"/>
       </filegroup>
     </legendlayer>
-    <legendlayer drawingOrder="-1" name="f03" open="true" checked="Qt::Unchecked" showFeatureCount="0">
+    <legendlayer drawingOrder="-1" name="f03" open="true" checked="Qt::Checked" showFeatureCount="0">
       <filegroup hidden="false" open="true">
-        <legendlayerfile isInOverview="0" visible="0" layerid="f03_a865c334_fd75_415f_8fed_fe47845640d4"/>
+        <legendlayerfile isInOverview="0" visible="1" layerid="f03_a865c334_fd75_415f_8fed_fe47845640d4"/>
       </filegroup>
     </legendlayer>
-    <legendlayer drawingOrder="-1" name="f01" open="true" checked="Qt::Unchecked" showFeatureCount="0">
+    <legendlayer drawingOrder="-1" name="f01" open="true" checked="Qt::Checked" showFeatureCount="0">
       <filegroup hidden="false" open="true">
-        <legendlayerfile isInOverview="0" visible="0" layerid="f01_5ad5852c_47aa_4ea8_bf17_29a240baeaa2"/>
+        <legendlayerfile isInOverview="0" visible="1" layerid="f01_5ad5852c_47aa_4ea8_bf17_29a240baeaa2"/>
       </filegroup>
     </legendlayer>
     <legendlayer drawingOrder="-1" name="ikou" open="false" checked="Qt::Checked" showFeatureCount="0">
@@ -8083,6 +8093,336 @@ def my_form_open(dialog, layer, feature):
         <xmax>462515.09375</xmax>
         <ymax>4644166</ymax>
       </extent>
+      <id>北側低位塹壕_eab27f5f_05ea_4dce_b03c_90bb328c8197</id>
+      <datasource>../data/ikou.gpkg|layername=zangou</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>南側塹壕</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=utm +zone=54 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+          <srsid>1063</srsid>
+          <srid>3100</srid>
+          <authid>EPSG:3100</authid>
+          <description>JGD2000 / UTM zone 54N</description>
+          <projectionacronym>utm</projectionacronym>
+          <ellipsoidacronym>GRS80</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <contact>
+          <name></name>
+          <organization></organization>
+          <position></position>
+          <voice></voice>
+          <fax></fax>
+          <email></email>
+          <role></role>
+        </contact>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent>
+          <spatial minx="0" dimensions="2" miny="0" maxy="0" maxz="0" crs="" minz="0" maxx="0"/>
+          <temporal>
+            <period>
+              <start></start>
+              <end></end>
+            </period>
+          </temporal>
+        </extent>
+      </resourceMetadata>
+      <provider encoding="UTF-8">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <legend type="default-vector"/>
+      <expressionfields/>
+      <map-layer-style-manager current="デフォルト">
+        <map-layer-style name="デフォルト"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <renderer-v2 symbollevels="0" type="RuleRenderer" forceraster="0" enableorderby="0">
+        <rules key="{4f4bf5ca-05fd-4fae-a8b3-9aeee05f924c}">
+          <rule symbol="0" key="{f34e978c-ba9f-4c5a-b396-10a86eb9d43b}" filter="&quot;name&quot; LIKE  'F01' OR  &#xa;&quot;name&quot; LIKE  'F03' OR &#xa;&quot;name&quot; LIKE  'F04' OR&#xa;&quot;name&quot; LIKE  'F18' "/>
+          <rule symbol="1" key="{5f924940-84ea-46d8-a2ad-97fc1a343ab3}" filter="&quot;name&quot; LIKE  'F12' OR&#xa;&quot;name&quot; LIKE  'F09' OR&#xa;&quot;name&quot; LIKE  'F08' OR&#xa;&quot;name&quot; LIKE  'F10' OR&#xa;&quot;name&quot; LIKE  'F11' OR&#xa;&quot;name&quot; LIKE  'F13' OR&#xa;&quot;name&quot; LIKE  'F14' OR&#xa;&quot;name&quot; LIKE  'F15' "/>
+        </rules>
+        <symbols>
+          <symbol alpha="1" name="0" clip_to_extent="1" type="marker">
+            <layer class="SimpleMarker" enabled="1" pass="0" locked="0">
+              <prop v="0" k="angle"/>
+              <prop v="227,26,28,255" k="color"/>
+              <prop v="1" k="horizontal_anchor_point"/>
+              <prop v="bevel" k="joinstyle"/>
+              <prop v="pentagon" k="name"/>
+              <prop v="0,0" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="MM" k="offset_unit"/>
+              <prop v="35,35,35,255" k="outline_color"/>
+              <prop v="solid" k="outline_style"/>
+              <prop v="0.2" k="outline_width"/>
+              <prop v="3x:0,0,0,0,0,0" k="outline_width_map_unit_scale"/>
+              <prop v="MM" k="outline_width_unit"/>
+              <prop v="diameter" k="scale_method"/>
+              <prop v="3" k="size"/>
+              <prop v="3x:0,0,0,0,0,0" k="size_map_unit_scale"/>
+              <prop v="MM" k="size_unit"/>
+              <prop v="1" k="vertical_anchor_point"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option name="name" type="QString" value=""/>
+                  <Option name="properties"/>
+                  <Option name="type" type="QString" value="collection"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+          <symbol alpha="1" name="1" clip_to_extent="1" type="marker">
+            <layer class="SimpleMarker" enabled="1" pass="0" locked="0">
+              <prop v="0" k="angle"/>
+              <prop v="185,185,185,255" k="color"/>
+              <prop v="1" k="horizontal_anchor_point"/>
+              <prop v="bevel" k="joinstyle"/>
+              <prop v="pentagon" k="name"/>
+              <prop v="0,0" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="MM" k="offset_unit"/>
+              <prop v="35,35,35,255" k="outline_color"/>
+              <prop v="solid" k="outline_style"/>
+              <prop v="0.2" k="outline_width"/>
+              <prop v="3x:0,0,0,0,0,0" k="outline_width_map_unit_scale"/>
+              <prop v="MM" k="outline_width_unit"/>
+              <prop v="diameter" k="scale_method"/>
+              <prop v="2" k="size"/>
+              <prop v="3x:0,0,0,0,0,0" k="size_map_unit_scale"/>
+              <prop v="MM" k="size_unit"/>
+              <prop v="1" k="vertical_anchor_point"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option name="name" type="QString" value=""/>
+                  <Option name="properties"/>
+                  <Option name="type" type="QString" value="collection"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+      </renderer-v2>
+      <labeling type="simple">
+        <settings>
+          <text-style fontSizeUnit="Point" fontLetterSpacing="0" fontWordSpacing="0" fontWeight="50" previewBkgrdColor="#ffffff" fieldName="name" fontItalic="0" fontCapitals="0" fontUnderline="0" multilineHeight="1" fontSizeMapUnitScale="3x:0,0,0,0,0,0" isExpression="0" fontSize="7" blendMode="0" namedStyle="Regular" useSubstitutions="0" fontFamily="MigMix 1P" textColor="0,0,0,255" fontStrikeout="0" textOpacity="1">
+            <text-buffer bufferSizeMapUnitScale="3x:0,0,0,0,0,0" bufferNoFill="1" bufferJoinStyle="128" bufferColor="255,255,255,255" bufferBlendMode="0" bufferOpacity="1" bufferDraw="0" bufferSize="1" bufferSizeUnits="MM"/>
+            <background shapeRadiiUnit="MM" shapeBorderWidthMapUnitScale="3x:0,0,0,0,0,0" shapeRotationType="0" shapeBorderWidthUnit="MM" shapeSizeMapUnitScale="3x:0,0,0,0,0,0" shapeSizeX="0" shapeType="0" shapeSizeType="0" shapeOffsetUnit="MM" shapeJoinStyle="64" shapeDraw="0" shapeRadiiY="0" shapeBorderColor="128,128,128,255" shapeSizeUnit="MM" shapeBorderWidth="0" shapeRadiiMapUnitScale="3x:0,0,0,0,0,0" shapeFillColor="255,255,255,255" shapeSVGFile="" shapeOffsetY="0" shapeOpacity="1" shapeBlendMode="0" shapeSizeY="0" shapeOffsetX="0" shapeRotation="0" shapeRadiiX="0" shapeOffsetMapUnitScale="3x:0,0,0,0,0,0"/>
+            <shadow shadowBlendMode="6" shadowOffsetDist="1" shadowRadiusMapUnitScale="3x:0,0,0,0,0,0" shadowRadiusAlphaOnly="0" shadowOpacity="0.7" shadowRadius="1.5" shadowScale="100" shadowOffsetUnit="MM" shadowDraw="0" shadowColor="0,0,0,255" shadowOffsetAngle="135" shadowOffsetGlobal="1" shadowRadiusUnit="MM" shadowOffsetMapUnitScale="3x:0,0,0,0,0,0" shadowUnder="0"/>
+            <substitutions/>
+          </text-style>
+          <text-format rightDirectionSymbol=">" decimals="3" wrapChar="" reverseDirectionSymbol="0" addDirectionSymbol="0" useMaxLineLengthForAutoWrap="1" plussign="0" multilineAlign="3" formatNumbers="0" leftDirectionSymbol="&lt;" autoWrapLength="0" placeDirectionSymbol="0"/>
+          <placement labelOffsetMapUnitScale="3x:0,0,0,0,0,0" priority="5" rotationAngle="0" xOffset="2" maxCurvedCharAngleOut="-25" centroidInside="0" placementFlags="10" maxCurvedCharAngleIn="25" yOffset="0" placement="1" centroidWhole="0" repeatDistanceUnits="MM" distMapUnitScale="3x:0,0,0,0,0,0" repeatDistance="0" preserveRotation="1" dist="0" repeatDistanceMapUnitScale="3x:0,0,0,0,0,0" offsetUnits="MM" distUnits="MM" fitInPolygonOnly="0" quadOffset="5" offsetType="0" predefinedPositionOrder="TR,TL,BR,BL,R,L,TSR,BSR"/>
+          <rendering drawLabels="1" scaleMax="0" scaleVisibility="0" fontMinPixelSize="3" zIndex="0" scaleMin="0" labelPerPart="0" maxNumLabels="2000" obstacleFactor="1" limitNumLabels="0" upsidedownLabels="0" displayAll="1" obstacleType="0" obstacle="1" fontLimitPixelSize="0" mergeLines="0" minFeatureSize="0" fontMaxPixelSize="10000"/>
+          <dd_properties>
+            <Option type="Map">
+              <Option name="name" type="QString" value=""/>
+              <Option name="properties"/>
+              <Option name="type" type="QString" value="collection"/>
+            </Option>
+          </dd_properties>
+        </settings>
+      </labeling>
+      <customproperties>
+        <property key="dualview/previewExpressions" value="fid"/>
+        <property key="embeddedWidgets/count" value="0"/>
+        <property key="variableNames"/>
+        <property key="variableValues"/>
+      </customproperties>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <SingleCategoryDiagramRenderer attributeLegend="1" diagramType="Histogram">
+        <DiagramCategory minScaleDenominator="0" enabled="0" rotationOffset="270" lineSizeScale="3x:0,0,0,0,0,0" barWidth="5" lineSizeType="MM" opacity="1" penWidth="0" sizeType="MM" penAlpha="255" backgroundAlpha="255" penColor="#000000" diagramOrientation="Up" backgroundColor="#ffffff" minimumSize="0" height="15" sizeScale="3x:0,0,0,0,0,0" width="15" maxScaleDenominator="1e+8" scaleDependency="Area" labelPlacementMethod="XHeight" scaleBasedVisibility="0">
+          <fontProperties description="MigMix 1P,11,-1,5,50,0,0,0,0,0" style=""/>
+          <attribute field="" color="#000000" label=""/>
+        </DiagramCategory>
+      </SingleCategoryDiagramRenderer>
+      <DiagramLayerSettings linePlacementFlags="18" obstacle="0" showAll="1" priority="0" placement="0" dist="0" zIndex="0">
+        <properties>
+          <Option type="Map">
+            <Option name="name" type="QString" value=""/>
+            <Option name="properties"/>
+            <Option name="type" type="QString" value="collection"/>
+          </Option>
+        </properties>
+      </DiagramLayerSettings>
+      <geometryOptions geometryPrecision="0" removeDuplicateNodes="0">
+        <activeChecks/>
+        <checkConfiguration/>
+      </geometryOptions>
+      <fieldConfiguration>
+        <field name="fid">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="name">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="lat">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="lon">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="x座標">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="y座標">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias field="fid" name="" index="0"/>
+        <alias field="name" name="" index="1"/>
+        <alias field="lat" name="" index="2"/>
+        <alias field="lon" name="" index="3"/>
+        <alias field="x座標" name="" index="4"/>
+        <alias field="y座標" name="" index="5"/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default field="fid" expression="" applyOnUpdate="0"/>
+        <default field="name" expression="" applyOnUpdate="0"/>
+        <default field="lat" expression="" applyOnUpdate="0"/>
+        <default field="lon" expression="" applyOnUpdate="0"/>
+        <default field="x座標" expression="" applyOnUpdate="0"/>
+        <default field="y座標" expression="" applyOnUpdate="0"/>
+      </defaults>
+      <constraints>
+        <constraint field="fid" notnull_strength="1" exp_strength="0" constraints="3" unique_strength="1"/>
+        <constraint field="name" notnull_strength="0" exp_strength="0" constraints="0" unique_strength="0"/>
+        <constraint field="lat" notnull_strength="0" exp_strength="0" constraints="0" unique_strength="0"/>
+        <constraint field="lon" notnull_strength="0" exp_strength="0" constraints="0" unique_strength="0"/>
+        <constraint field="x座標" notnull_strength="0" exp_strength="0" constraints="0" unique_strength="0"/>
+        <constraint field="y座標" notnull_strength="0" exp_strength="0" constraints="0" unique_strength="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint exp="" field="fid" desc=""/>
+        <constraint exp="" field="name" desc=""/>
+        <constraint exp="" field="lat" desc=""/>
+        <constraint exp="" field="lon" desc=""/>
+        <constraint exp="" field="x座標" desc=""/>
+        <constraint exp="" field="y座標" desc=""/>
+      </constraintExpressions>
+      <expressionfields/>
+      <attributeactions>
+        <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
+      </attributeactions>
+      <attributetableconfig sortOrder="0" actionWidgetStyle="dropDown" sortExpression="">
+        <columns>
+          <column name="fid" hidden="0" type="field" width="-1"/>
+          <column name="name" hidden="0" type="field" width="-1"/>
+          <column name="lat" hidden="0" type="field" width="-1"/>
+          <column name="lon" hidden="0" type="field" width="-1"/>
+          <column name="x座標" hidden="0" type="field" width="-1"/>
+          <column name="y座標" hidden="0" type="field" width="-1"/>
+          <column hidden="1" type="actions" width="-1"/>
+        </columns>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
+"""
+フォームが開かれた時に呼び出されるPython関数を使用してフォームにエクストラロジックを追加することができます.
+"Python初期化関数"フィールドに関数の名前を入力します.
+例は次のとおりです:
+"""
+from qgis.PyQt.QtWidgets import QWidget
+
+def my_form_open(dialog, layer, feature):
+	geom = feature.geometry()
+	control = dialog.findChild(QWidget, "MyLineEdit")
+]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable>
+        <field name="fid" editable="1"/>
+        <field name="lat" editable="1"/>
+        <field name="lon" editable="1"/>
+        <field name="name" editable="1"/>
+        <field name="x座標" editable="1"/>
+        <field name="y座標" editable="1"/>
+      </editable>
+      <labelOnTop>
+        <field labelOnTop="0" name="fid"/>
+        <field labelOnTop="0" name="lat"/>
+        <field labelOnTop="0" name="lon"/>
+        <field labelOnTop="0" name="name"/>
+        <field labelOnTop="0" name="x座標"/>
+        <field labelOnTop="0" name="y座標"/>
+      </labelOnTop>
+      <widgets/>
+      <previewExpression>fid</previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+    <maplayer refreshOnNotifyEnabled="0" geometry="Point" styleCategories="AllStyleCategories" maxScale="0" hasScaleBasedVisibilityFlag="0" minScale="1e+8" simplifyDrawingTol="1" readOnly="0" autoRefreshEnabled="0" type="vector" refreshOnNotifyMessage="" simplifyDrawingHints="0" simplifyAlgorithm="0" simplifyLocal="1" autoRefreshTime="0" labelsEnabled="1" simplifyMaxScale="1">
+      <extent>
+        <xmin>462128.15625</xmin>
+        <ymin>4643587</ymin>
+        <xmax>462515.09375</xmax>
+        <ymax>4644166</ymax>
+      </extent>
       <id>北側高位塹壕_03ddad30_4aea_441f_9e70_50de7e83c5a3</id>
       <datasource>../data/ikou.gpkg|layername=zangou</datasource>
       <keywordList>
@@ -9434,6 +9774,7 @@ def my_form_open(dialog, layer, feature):
     <layer id="ikou_zangou_73d30140_a9ee_4df0_9fdb_8f433607652e"/>
     <layer id="確認済み塹壕_f23e7730_549e_4172_999c_52ca1c54b28b"/>
     <layer id="北側高位塹壕_03ddad30_4aea_441f_9e70_50de7e83c5a3"/>
+    <layer id="北側低位塹壕_eab27f5f_05ea_4dce_b03c_90bb328c8197"/>
   </layerorder>
   <properties>
     <WCSUrl type="QString"></WCSUrl>
@@ -9487,7 +9828,7 @@ def my_form_open(dialog, layer, feature):
       <ProjectionsEnabled type="int">1</ProjectionsEnabled>
     </SpatialRefSys>
     <Layouts>
-      <lastLayoutExportDir type="QString">/home/ishii/GIS_Data/Analysis/2018Futamata/report/fig</lastLayoutExportDir>
+      <lastLayoutExportDir type="QString">/home/ishii/GIS_Data/Analysis/2018Futamata/report/fig/view.pdf</lastLayoutExportDir>
     </Layouts>
     <WFSTLayers>
       <Insert type="QStringList"/>
@@ -9608,8 +9949,8 @@ def my_form_open(dialog, layer, feature):
       <expanded-group-nodes/>
     </visibility-preset>
     <visibility-preset name="南側塹壕" has-expanded-info="1">
-      <layer expanded="1" style="デフォルト" id="ikou_zangou_73d30140_a9ee_4df0_9fdb_8f433607652e"/>
-      <expanded-legend-nodes id="ikou_zangou_73d30140_a9ee_4df0_9fdb_8f433607652e"/>
+      <layer expanded="1" style="デフォルト" id="北側低位塹壕_eab27f5f_05ea_4dce_b03c_90bb328c8197"/>
+      <expanded-legend-nodes id="北側低位塹壕_eab27f5f_05ea_4dce_b03c_90bb328c8197"/>
       <layer expanded="1" style="デフォルト" id="Uzura_road_151be9cf_e9a1_4692_a765_b280a9170ba7"/>
       <expanded-legend-nodes id="Uzura_road_151be9cf_e9a1_4692_a765_b280a9170ba7"/>
       <layer expanded="1" style="デフォルト" id="f18_b0d4115a_e3a0_4a8b_a40f_03d6db84bbde"/>
@@ -12159,7 +12500,7 @@ def my_form_open(dialog, layer, feature):
             </data_defined_properties>
           </layer>
         </symbol>
-        <LayoutItem visibility="1" id="" position="0,0,mm" frameJoinStyle="miter" uuid="{a493fa35-5e2d-4194-8404-0a011401a5cb}" positionOnPage="0,0,mm" referencePoint="0" opacity="1" background="true" zValue="0" outlineWidthM="0.3,mm" templateUuid="{a493fa35-5e2d-4194-8404-0a011401a5cb}" blendMode="0" groupUuid="" positionLock="false" itemRotation="0" excludeFromExports="0" type="65638" frame="false" size="159.937,218.548,mm">
+        <LayoutItem visibility="1" id="" position="0,0,mm" frameJoinStyle="miter" uuid="{a493fa35-5e2d-4194-8404-0a011401a5cb}" positionOnPage="0,0,mm" referencePoint="0" opacity="1" background="true" zValue="0" outlineWidthM="0.3,mm" templateUuid="{a493fa35-5e2d-4194-8404-0a011401a5cb}" blendMode="0" groupUuid="" positionLock="false" itemRotation="0" excludeFromExports="0" type="65638" frame="false" size="160.32,226.377,mm">
           <FrameColor alpha="255" blue="0" red="0" green="0"/>
           <BackgroundColor alpha="255" blue="255" red="255" green="255"/>
           <LayoutObject>
@@ -12175,7 +12516,7 @@ def my_form_open(dialog, layer, feature):
         </LayoutItem>
         <GuideCollection visible="1"/>
       </PageCollection>
-      <LayoutItem visibility="1" id="" position="0.582843,146.39,mm" marginX="0" frameJoinStyle="miter" htmlState="0" uuid="{01be8ad9-5106-43d5-9548-98418766562d}" positionOnPage="0.582843,146.39,mm" referencePoint="0" opacity="1" labelText="鶉山道北側低位塹壕群" marginY="0" background="false" zValue="18" outlineWidthM="0.3,mm" templateUuid="{01be8ad9-5106-43d5-9548-98418766562d}" blendMode="0" groupUuid="" positionLock="false" valign="32" itemRotation="0" excludeFromExports="0" type="65641" halign="4" frame="false" size="159.937,4.64471,mm">
+      <LayoutItem visibility="1" id="" position="0,221.732,mm" marginX="0" frameJoinStyle="miter" htmlState="0" uuid="{b07ac153-a9a6-4d1e-b97c-b9331591aad1}" positionOnPage="0,221.732,mm" referencePoint="0" opacity="1" labelText="鶉山道南側塹壕群" marginY="0" background="false" zValue="19" outlineWidthM="0.3,mm" templateUuid="{b07ac153-a9a6-4d1e-b97c-b9331591aad1}" blendMode="0" groupUuid="" positionLock="false" valign="32" itemRotation="0" excludeFromExports="0" type="65641" halign="4" frame="false" size="159.937,4.64471,mm">
         <FrameColor alpha="255" blue="0" red="0" green="0"/>
         <BackgroundColor alpha="255" blue="255" red="255" green="255"/>
         <LayoutObject>
@@ -12191,7 +12532,23 @@ def my_form_open(dialog, layer, feature):
         <LabelFont description="IPAゴシック,8,-1,5,50,0,0,0,0,0" style=""/>
         <FontColor blue="0" red="0" green="0"/>
       </LayoutItem>
-      <LayoutItem visibility="1" id="" position="1.42109e-14,150.462,mm" drawCanvasItems="true" frameJoinStyle="miter" uuid="{4d23c60c-8dba-4cf5-a195-034b7b394f77}" positionOnPage="1.42109e-14,150.462,mm" referencePoint="0" opacity="1" background="true" keepLayerSet="false" zValue="16" outlineWidthM="0.3,mm" templateUuid="{4d23c60c-8dba-4cf5-a195-034b7b394f77}" blendMode="0" followPreset="true" groupUuid="" positionLock="false" mapRotation="0" followPresetName="南側塹壕" itemRotation="0" excludeFromExports="0" type="65639" frame="false" size="159.937,71.0862,mm">
+      <LayoutItem visibility="1" id="" position="0.965435,147.39,mm" marginX="0" frameJoinStyle="miter" htmlState="0" uuid="{01be8ad9-5106-43d5-9548-98418766562d}" positionOnPage="0.965435,147.39,mm" referencePoint="0" opacity="1" labelText="鶉山道北側低位塹壕群" marginY="0" background="false" zValue="18" outlineWidthM="0.3,mm" templateUuid="{01be8ad9-5106-43d5-9548-98418766562d}" blendMode="0" groupUuid="" positionLock="false" valign="32" itemRotation="0" excludeFromExports="0" type="65641" halign="4" frame="false" size="159.354,4.64471,mm">
+        <FrameColor alpha="255" blue="0" red="0" green="0"/>
+        <BackgroundColor alpha="255" blue="255" red="255" green="255"/>
+        <LayoutObject>
+          <dataDefinedProperties>
+            <Option type="Map">
+              <Option name="name" type="QString" value=""/>
+              <Option name="properties"/>
+              <Option name="type" type="QString" value="collection"/>
+            </Option>
+          </dataDefinedProperties>
+          <customproperties/>
+        </LayoutObject>
+        <LabelFont description="IPAゴシック,8,-1,5,50,0,0,0,0,0" style=""/>
+        <FontColor blue="0" red="0" green="0"/>
+      </LayoutItem>
+      <LayoutItem visibility="1" id="" position="0.382592,150.462,mm" drawCanvasItems="true" frameJoinStyle="miter" uuid="{4d23c60c-8dba-4cf5-a195-034b7b394f77}" positionOnPage="0.382592,150.462,mm" referencePoint="0" opacity="1" background="true" keepLayerSet="false" zValue="16" outlineWidthM="0.3,mm" templateUuid="{4d23c60c-8dba-4cf5-a195-034b7b394f77}" blendMode="0" followPreset="true" groupUuid="" positionLock="false" mapRotation="0" followPresetName="南側塹壕" itemRotation="0" excludeFromExports="0" type="65639" frame="false" size="159.937,71.0862,mm">
         <FrameColor alpha="255" blue="0" red="0" green="0"/>
         <BackgroundColor alpha="255" blue="255" red="255" green="255"/>
         <LayoutObject>
@@ -12208,7 +12565,7 @@ def my_form_open(dialog, layer, feature):
         <LayerSet/>
         <AtlasMap atlasDriven="0" scalingMode="2" margin="0.10000000000000001"/>
       </LayoutItem>
-      <LayoutItem visibility="1" id="" position="1.42109e-14,71.0862,mm" marginX="0" frameJoinStyle="miter" htmlState="0" uuid="{7dd1afe6-8ab2-4093-a01d-ac5d14a752b3}" positionOnPage="1.42109e-14,71.0862,mm" referencePoint="0" opacity="1" labelText="鶉山道北側高位塹壕群" marginY="0" background="false" zValue="9" outlineWidthM="0.3,mm" templateUuid="{7dd1afe6-8ab2-4093-a01d-ac5d14a752b3}" blendMode="0" groupUuid="" positionLock="false" valign="32" itemRotation="0" excludeFromExports="0" type="65641" halign="4" frame="false" size="159.937,4.64471,mm">
+      <LayoutItem visibility="1" id="" position="0.382592,71.0862,mm" marginX="0" frameJoinStyle="miter" htmlState="0" uuid="{7dd1afe6-8ab2-4093-a01d-ac5d14a752b3}" positionOnPage="0.382592,71.0862,mm" referencePoint="0" opacity="1" labelText="鶉山道北側高位塹壕群" marginY="0" background="false" zValue="9" outlineWidthM="0.3,mm" templateUuid="{7dd1afe6-8ab2-4093-a01d-ac5d14a752b3}" blendMode="0" groupUuid="" positionLock="false" valign="32" itemRotation="0" excludeFromExports="0" type="65641" halign="4" frame="false" size="159.937,4.64471,mm">
         <FrameColor alpha="255" blue="0" red="0" green="0"/>
         <BackgroundColor alpha="255" blue="255" red="255" green="255"/>
         <LayoutObject>
@@ -12224,7 +12581,7 @@ def my_form_open(dialog, layer, feature):
         <LabelFont description="IPAゴシック,8,-1,5,50,0,0,0,0,0" style=""/>
         <FontColor blue="0" red="0" green="0"/>
       </LayoutItem>
-      <LayoutItem visibility="1" id="" position="98.6677,205.54,mm" marginX="0" frameJoinStyle="miter" htmlState="0" uuid="{2d98dcba-9f4e-4521-b085-da6a11e076c4}" positionOnPage="98.6677,205.54,mm" referencePoint="0" opacity="1" labelText="国土地理院基盤地図情報（等高線及び河川）OpenStreetMap（道路）" marginY="0" background="false" zValue="9" outlineWidthM="0.3,mm" templateUuid="{2d98dcba-9f4e-4521-b085-da6a11e076c4}" blendMode="0" groupUuid="" positionLock="false" valign="32" itemRotation="0" excludeFromExports="0" type="65641" halign="8" frame="false" size="55.7904,5.15718,mm">
+      <LayoutItem visibility="1" id="" position="99.0503,205.54,mm" marginX="0" frameJoinStyle="miter" htmlState="0" uuid="{2d98dcba-9f4e-4521-b085-da6a11e076c4}" positionOnPage="99.0503,205.54,mm" referencePoint="0" opacity="1" labelText="国土地理院基盤地図情報（等高線及び河川）OpenStreetMap（道路）" marginY="0" background="false" zValue="9" outlineWidthM="0.3,mm" templateUuid="{2d98dcba-9f4e-4521-b085-da6a11e076c4}" blendMode="0" groupUuid="" positionLock="false" valign="32" itemRotation="0" excludeFromExports="0" type="65641" halign="8" frame="false" size="55.7904,5.15718,mm">
         <FrameColor alpha="255" blue="0" red="0" green="0"/>
         <BackgroundColor alpha="255" blue="255" red="255" green="255"/>
         <LayoutObject>
@@ -12240,7 +12597,7 @@ def my_form_open(dialog, layer, feature):
         <LabelFont description="IPAゴシック,7,-1,5,50,0,0,0,0,0" style=""/>
         <FontColor blue="0" red="0" green="0"/>
       </LayoutItem>
-      <LayoutItem visibility="1" id="" position="1.42109e-14,75.7309,mm" drawCanvasItems="true" frameJoinStyle="miter" uuid="{ddf37ca5-1258-449f-8224-224b442946a4}" positionOnPage="1.42109e-14,75.7309,mm" referencePoint="0" opacity="1" background="true" keepLayerSet="false" zValue="8" outlineWidthM="0.3,mm" templateUuid="{ddf37ca5-1258-449f-8224-224b442946a4}" blendMode="0" followPreset="true" groupUuid="" positionLock="false" mapRotation="0" followPresetName="北側低位塹壕" itemRotation="0" excludeFromExports="0" type="65639" frame="false" size="159.937,71.0862,mm">
+      <LayoutItem visibility="1" id="" position="0.382592,75.7309,mm" drawCanvasItems="true" frameJoinStyle="miter" uuid="{ddf37ca5-1258-449f-8224-224b442946a4}" positionOnPage="0.382592,75.7309,mm" referencePoint="0" opacity="1" background="true" keepLayerSet="false" zValue="8" outlineWidthM="0.3,mm" templateUuid="{ddf37ca5-1258-449f-8224-224b442946a4}" blendMode="0" followPreset="true" groupUuid="" positionLock="false" mapRotation="0" followPresetName="北側低位塹壕" itemRotation="0" excludeFromExports="0" type="65639" frame="false" size="159.937,71.0862,mm">
         <FrameColor alpha="255" blue="0" red="0" green="0"/>
         <BackgroundColor alpha="255" blue="255" red="255" green="255"/>
         <LayoutObject>
@@ -12257,7 +12614,7 @@ def my_form_open(dialog, layer, feature):
         <LayerSet/>
         <AtlasMap atlasDriven="0" scalingMode="2" margin="0.10000000000000001"/>
       </LayoutItem>
-      <LayoutItem columnSpace="2" legendFilterByAtlas="0" position="103.738,180.775,mm" splitLayer="0" frame="false" titleAlignment="1" title="" referencePoint="3" equalColumnWidth="0" map_uuid="{1320d977-8620-4640-95b5-9dee59918257}" id="" rasterBorderWidth="0" boxSpace="2" uuid="{79164dd3-3417-4c22-92c5-5fd7b99170cd}" wmsLegendWidth="50" excludeFromExports="0" visibility="1" symbolHeight="1" templateUuid="{79164dd3-3417-4c22-92c5-5fd7b99170cd}" wmsLegendHeight="25" type="65642" background="true" wrapChar="" resizeToContents="1" blendMode="0" positionLock="false" positionOnPage="103.738,180.775,mm" symbolWidth="4" outlineWidthM="0.3,mm" fontColor="#000000" frameJoinStyle="miter" rasterBorderColor="0,0,0,255" groupUuid="" lineSpacing="1" rasterBorder="1" itemRotation="0" opacity="1" zValue="6" columnCount="1" size="25,5.8,mm">
+      <LayoutItem columnSpace="2" legendFilterByAtlas="0" position="104.121,180.775,mm" splitLayer="0" frame="false" titleAlignment="1" title="" referencePoint="3" equalColumnWidth="0" map_uuid="{1320d977-8620-4640-95b5-9dee59918257}" id="" rasterBorderWidth="0" boxSpace="2" uuid="{79164dd3-3417-4c22-92c5-5fd7b99170cd}" wmsLegendWidth="50" excludeFromExports="0" visibility="1" symbolHeight="1" templateUuid="{79164dd3-3417-4c22-92c5-5fd7b99170cd}" wmsLegendHeight="25" type="65642" background="true" wrapChar="" resizeToContents="1" blendMode="0" positionLock="false" positionOnPage="104.121,180.775,mm" symbolWidth="4" outlineWidthM="0.3,mm" fontColor="#000000" frameJoinStyle="miter" rasterBorderColor="0,0,0,255" groupUuid="" lineSpacing="1" rasterBorder="1" itemRotation="0" opacity="1" zValue="6" columnCount="1" size="25,5.8,mm">
         <FrameColor alpha="255" blue="0" red="0" green="0"/>
         <BackgroundColor alpha="255" blue="255" red="255" green="255"/>
         <LayoutObject>
@@ -12297,7 +12654,7 @@ def my_form_open(dialog, layer, feature):
           <custom-order enabled="0"/>
         </layer-tree-group>
       </LayoutItem>
-      <LayoutItem visibility="1" id="" position="26.3143,52.8252,mm" marginX="0" frameJoinStyle="miter" htmlState="0" uuid="{f76c0cea-f137-4c26-a508-b636a14b1300}" positionOnPage="26.3143,52.8252,mm" referencePoint="0" opacity="1" labelText="至　江差" marginY="0" background="false" zValue="5" outlineWidthM="0.3,mm" templateUuid="{f76c0cea-f137-4c26-a508-b636a14b1300}" blendMode="0" groupUuid="" positionLock="false" valign="32" itemRotation="0" excludeFromExports="0" type="65641" halign="8" frame="false" size="27.5,6.6914,mm">
+      <LayoutItem visibility="1" id="" position="26.6969,52.8252,mm" marginX="0" frameJoinStyle="miter" htmlState="0" uuid="{f76c0cea-f137-4c26-a508-b636a14b1300}" positionOnPage="26.6969,52.8252,mm" referencePoint="0" opacity="1" labelText="至　江差" marginY="0" background="false" zValue="5" outlineWidthM="0.3,mm" templateUuid="{f76c0cea-f137-4c26-a508-b636a14b1300}" blendMode="0" groupUuid="" positionLock="false" valign="32" itemRotation="0" excludeFromExports="0" type="65641" halign="8" frame="false" size="27.5,6.6914,mm">
         <FrameColor alpha="255" blue="0" red="0" green="0"/>
         <BackgroundColor alpha="255" blue="255" red="255" green="255"/>
         <LayoutObject>
@@ -12313,7 +12670,7 @@ def my_form_open(dialog, layer, feature):
         <LabelFont description="IPAゴシック,7,-1,5,50,0,0,0,0,0" style=""/>
         <FontColor blue="0" red="0" green="0"/>
       </LayoutItem>
-      <LayoutItem visibility="1" file="arrows/NorthArrow_04.svg" mapUuid="" pictureRotation="0" id="" position="147.131,4.06295,mm" svgBorderColor="0,0,0,255" northMode="0" svgFillColor="255,255,255,255" frameJoinStyle="miter" uuid="{63443a0b-24a8-4d96-a747-4dd63a96a5da}" positionOnPage="147.131,4.06295,mm" referencePoint="0" opacity="1" background="false" zValue="4" outlineWidthM="0.3,mm" svgBorderWidth="0.2" templateUuid="{63443a0b-24a8-4d96-a747-4dd63a96a5da}" pictureHeight="10.3727" blendMode="0" groupUuid="" positionLock="false" northOffset="0" pictureWidth="6.52304" itemRotation="0" excludeFromExports="0" type="65640" anchorPoint="0" frame="false" resizeMode="0" size="6.65421,10.3727,mm">
+      <LayoutItem visibility="1" file="arrows/NorthArrow_04.svg" mapUuid="" pictureRotation="0" id="" position="147.514,4.06295,mm" svgBorderColor="0,0,0,255" northMode="0" svgFillColor="255,255,255,255" frameJoinStyle="miter" uuid="{63443a0b-24a8-4d96-a747-4dd63a96a5da}" positionOnPage="147.514,4.06295,mm" referencePoint="0" opacity="1" background="false" zValue="4" outlineWidthM="0.3,mm" svgBorderWidth="0.2" templateUuid="{63443a0b-24a8-4d96-a747-4dd63a96a5da}" pictureHeight="10.3727" blendMode="0" groupUuid="" positionLock="false" northOffset="0" pictureWidth="6.52304" itemRotation="0" excludeFromExports="0" type="65640" anchorPoint="0" frame="false" resizeMode="0" size="6.65421,10.3727,mm">
         <FrameColor alpha="255" blue="0" red="0" green="0"/>
         <BackgroundColor alpha="255" blue="255" red="255" green="255"/>
         <LayoutObject>
@@ -12327,7 +12684,7 @@ def my_form_open(dialog, layer, feature):
           <customproperties/>
         </LayoutObject>
       </LayoutItem>
-      <LayoutItem numUnitsPerSegment="50" numSegments="4" segmentMillimeters="3.33206" position="97.8767,198.997,mm" segmentSizeMode="0" style="Double Box" frame="false" boxContentSpace="1" referencePoint="0" maxBarWidth="150" labelBarSpace="1" id="" minBarWidth="50" uuid="{cf2b9ad2-9315-4ae4-b2f9-e2c42f09b2f6}" outlineWidth="0.1" unitLabel="m" excludeFromExports="0" visibility="1" templateUuid="{cf2b9ad2-9315-4ae4-b2f9-e2c42f09b2f6}" mapUuid="{1320d977-8620-4640-95b5-9dee59918257}" type="65646" numMapUnitsPerScaleBarUnit="1" background="false" unitType="meters" lineCapStyle="square" numSegmentsLeft="0" blendMode="0" positionLock="false" positionOnPage="97.8767,198.997,mm" outlineWidthM="0.3,mm" lineJoinStyle="miter" frameJoinStyle="miter" groupUuid="" itemRotation="0" alignment="0" opacity="1" zValue="2" size="19.9282,11.7,mm" height="1">
+      <LayoutItem numUnitsPerSegment="50" numSegments="4" segmentMillimeters="3.33206" position="98.2593,198.997,mm" segmentSizeMode="0" style="Double Box" frame="false" boxContentSpace="1" referencePoint="0" maxBarWidth="150" labelBarSpace="1" id="" minBarWidth="50" uuid="{cf2b9ad2-9315-4ae4-b2f9-e2c42f09b2f6}" outlineWidth="0.1" unitLabel="m" excludeFromExports="0" visibility="1" templateUuid="{cf2b9ad2-9315-4ae4-b2f9-e2c42f09b2f6}" mapUuid="{1320d977-8620-4640-95b5-9dee59918257}" type="65646" numMapUnitsPerScaleBarUnit="1" background="false" unitType="meters" lineCapStyle="square" numSegmentsLeft="0" blendMode="0" positionLock="false" positionOnPage="98.2593,198.997,mm" outlineWidthM="0.3,mm" lineJoinStyle="miter" frameJoinStyle="miter" groupUuid="" itemRotation="0" alignment="0" opacity="1" zValue="2" size="19.9282,11.7,mm" height="1">
         <FrameColor alpha="255" blue="0" red="0" green="0"/>
         <BackgroundColor alpha="255" blue="255" red="255" green="255"/>
         <LayoutObject>
@@ -12349,7 +12706,7 @@ def my_form_open(dialog, layer, feature):
         <fillColor2 alpha="255" blue="255" red="255" green="255"/>
         <strokeColor alpha="255" blue="0" red="0" green="0"/>
       </LayoutItem>
-      <LayoutItem visibility="1" id="" position="0,0,mm" drawCanvasItems="true" frameJoinStyle="miter" uuid="{1320d977-8620-4640-95b5-9dee59918257}" positionOnPage="0,0,mm" referencePoint="0" opacity="1" background="true" keepLayerSet="false" zValue="1" outlineWidthM="0.3,mm" templateUuid="{1320d977-8620-4640-95b5-9dee59918257}" blendMode="0" followPreset="true" groupUuid="" positionLock="false" mapRotation="0" followPresetName="北側高位塹壕" itemRotation="0" excludeFromExports="0" type="65639" frame="false" size="159.937,71.0862,mm">
+      <LayoutItem visibility="1" id="" position="0.382592,0,mm" drawCanvasItems="true" frameJoinStyle="miter" uuid="{1320d977-8620-4640-95b5-9dee59918257}" positionOnPage="0.382592,0,mm" referencePoint="0" opacity="1" background="true" keepLayerSet="false" zValue="1" outlineWidthM="0.3,mm" templateUuid="{1320d977-8620-4640-95b5-9dee59918257}" blendMode="0" followPreset="true" groupUuid="" positionLock="false" mapRotation="0" followPresetName="北側高位塹壕" itemRotation="0" excludeFromExports="0" type="65639" frame="false" size="159.937,71.0862,mm">
         <FrameColor alpha="255" blue="0" red="0" green="0"/>
         <BackgroundColor alpha="255" blue="255" red="255" green="255"/>
         <LayoutObject>

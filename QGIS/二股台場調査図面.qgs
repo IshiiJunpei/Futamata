@@ -9828,7 +9828,7 @@ def my_form_open(dialog, layer, feature):
       <ProjectionsEnabled type="int">1</ProjectionsEnabled>
     </SpatialRefSys>
     <Layouts>
-      <lastLayoutExportDir type="QString">/home/ishii/GIS_Data/Analysis/2018Futamata/report/fig/view.pdf</lastLayoutExportDir>
+      <lastLayoutExportDir type="QString">/home/ishii/GIS_Data/Analysis/2018Futamata/report/fig</lastLayoutExportDir>
     </Layouts>
     <WFSTLayers>
       <Insert type="QStringList"/>
@@ -12532,7 +12532,7 @@ def my_form_open(dialog, layer, feature):
         <LabelFont description="IPAゴシック,8,-1,5,50,0,0,0,0,0" style=""/>
         <FontColor blue="0" red="0" green="0"/>
       </LayoutItem>
-      <LayoutItem visibility="1" id="" position="0.965435,146.39,mm" marginX="0" frameJoinStyle="miter" htmlState="0" uuid="{01be8ad9-5106-43d5-9548-98418766562d}" positionOnPage="0.965435,146.39,mm" referencePoint="0" opacity="1" labelText="鶉山道北側低位塹壕群" marginY="0" background="false" zValue="18" outlineWidthM="0.3,mm" templateUuid="{01be8ad9-5106-43d5-9548-98418766562d}" blendMode="0" groupUuid="" positionLock="false" valign="32" itemRotation="0" excludeFromExports="0" type="65641" halign="4" frame="false" size="159.354,4.64471,mm">
+      <LayoutItem visibility="1" id="" position="0.965435,147.39,mm" marginX="0" frameJoinStyle="miter" htmlState="0" uuid="{01be8ad9-5106-43d5-9548-98418766562d}" positionOnPage="0.965435,147.39,mm" referencePoint="0" opacity="1" labelText="鶉山道北側低位塹壕群" marginY="0" background="false" zValue="18" outlineWidthM="0.3,mm" templateUuid="{01be8ad9-5106-43d5-9548-98418766562d}" blendMode="0" groupUuid="" positionLock="false" valign="32" itemRotation="0" excludeFromExports="0" type="65641" halign="4" frame="false" size="159.354,4.64471,mm">
         <FrameColor alpha="255" blue="0" red="0" green="0"/>
         <BackgroundColor alpha="255" blue="255" red="255" green="255"/>
         <LayoutObject>

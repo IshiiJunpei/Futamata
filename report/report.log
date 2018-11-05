@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.7.1-161114-2.6 (utf8.euc) (TeX Live 2016/Debian) (preloaded format=platex 2018.9.22)  4 NOV 2018 16:17
+This is e-pTeX, Version 3.14159265-p3.7.1-161114-2.6 (utf8.euc) (TeX Live 2016/Debian) (preloaded format=platex 2018.9.22)  5 NOV 2018 21:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -321,18 +321,24 @@ File: fig/F08.pdf Graphic file (type pdf)
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[6] [7] [8] [9] [10] [11] [12] (./report.aux)
+[6] [7]
+File: fig/view.pdf Graphic file (type pdf)
+ <fig/view.pdf>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[8] [9] [10] [11] [12] [13] (./report.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 3023 strings out of 494820
- 35646 string characters out of 6178927
+ 3027 strings out of 494820
+ 35702 string characters out of 6178927
  98567 words of memory out of 5000000
- 6474 multiletter control sequences out of 15000+600000
+ 6477 multiletter control sequences out of 15000+600000
  15520 words of font info for 78 fonts, out of 8000000 for 9000
  269 hyphenation exceptions out of 8191
- 26i,8n,22p,555b,991s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 26i,8n,22p,600b,991s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on report.dvi (12 pages, 22860 bytes).
+Output written on report.dvi (13 pages, 23944 bytes).
