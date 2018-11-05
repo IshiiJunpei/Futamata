@@ -1,0 +1,108 @@
+####可視領域算出　上書きは --overwrite　フラグ
+#F01可視領域
+r.viewshed input=DEM@kasi output=f01 coordinates=462305,4643815 observer_elevation=1.75
+#F02可視領域
+r.viewshed input=DEM@kasi output=f02 coordinates=462258,4643696 observer_elevation=1.75
+#F03可視領域
+r.viewshed input=DEM@kasi output=f03 coordinates=462263,4643659 observer_elevation=1.75
+#F04可視領域
+r.viewshed input=DEM@kasi output=f04 coordinates=462264,4643606 observer_elevation=1.75
+#F18可視領域
+r.viewshed input=DEM@kasi output=f18 coordinates=462230,4643587 observer_elevation=1.75
+#F12可視領域
+r.viewshed input=DEM@kasi output=f12 coordinates=462373,4643863 observer_elevation=1.75
+#F08可視領域
+r.viewshed input=DEM@kasi output=f08 coordinates=462317,4643958 observer_elevation=1.75
+#F09可視領域
+r.viewshed input=DEM@kasi output=f09 coordinates=462330,4643967 observer_elevation=1.75
+#F10可視領域
+r.viewshed input=DEM@kasi output=f10 coordinates=462331,4644032 observer_elevation=1.75
+#F11可視領域
+r.viewshed input=DEM@kasi output=f11 coordinates=462367,4644065 observer_elevation=1.75
+#F13可視領域
+r.viewshed input=DEM@kasi output=f13 coordinates=462417,4644075 observer_elevation=1.75
+#F15可視領域
+r.viewshed input=DEM@kasi output=f15 coordinates=462515,4644165 observer_elevation=1.75
+
+####可視領域ラスタの二値画像化
+#F01 reclass
+r.reclass input=f01@kasi output=f01reclass rules=/home/ishii/GIS_Data/Analysis/2018Futamata/grass/reclass.txt --overwrite
+#F03 reclass
+r.reclass input=f03@kasi output=f03reclass rules=/home/ishii/GIS_Data/Analysis/2018Futamata/grass/reclass.txt --overwrite
+#F04 reclass
+r.reclass input=f04@kasi output=f04reclass rules=/home/ishii/GIS_Data/Analysis/2018Futamata/grass/reclass.txt --overwrite
+#F18 reclass
+r.reclass input=f18@kasi output=f18reclass rules=/home/ishii/GIS_Data/Analysis/2018Futamata/grass/reclass.txt --overwrite
+#F12 reclass
+r.reclass input=f12@kasi output=f12reclass rules=/home/ishii/GIS_Data/Analysis/2018Futamata/grass/reclass.txt --overwrite
+#F08 reclass
+r.reclass input=f08@kasi output=f08reclass rules=/home/ishii/GIS_Data/Analysis/2018Futamata/grass/reclass.txt --overwrite
+#F09 reclass
+r.reclass input=f09@kasi output=f09reclass rules=/home/ishii/GIS_Data/Analysis/2018Futamata/grass/reclass.txt --overwrite
+#F10 reclass
+r.reclass input=f10@kasi output=f10reclass rules=/home/ishii/GIS_Data/Analysis/2018Futamata/grass/reclass.txt --overwrite
+#F11 reclass
+r.reclass input=f11@kasi output=f11reclass rules=/home/ishii/GIS_Data/Analysis/2018Futamata/grass/reclass.txt --overwrite
+#F13 reclass
+r.reclass input=f13@kasi output=f13reclass rules=/home/ishii/GIS_Data/Analysis/2018Futamata/grass/reclass.txt --overwrite
+#F15 reclass
+r.reclass input=f15@kasi output=f15reclass rules=/home/ishii/GIS_Data/Analysis/2018Futamata/grass/reclass.txt --overwrite
+
+
+####可視領域ラスタのベクタ化
+#F01
+r.to.vect input=f01reclass@kasi output=f01 type=area --overwrite
+#F03
+r.to.vect input=f03reclass@kasi output=f03 type=area --overwrite
+#F04
+r.to.vect input=f04reclass@kasi output=f04 type=area --overwrite
+#F18
+r.to.vect input=f18reclass@kasi output=f18 type=area --overwrite
+#F12
+r.to.vect input=f12reclass@kasi output=f12 type=area --overwrite
+#F08
+r.to.vect input=f08reclass@kasi output=f08 type=area --overwrite
+#F09
+r.to.vect input=f09reclass@kasi output=f09 type=area --overwrite
+#F10
+r.to.vect input=f10reclass@kasi output=f10 type=area --overwrite
+#F11
+r.to.vect input=f11reclass@kasi output=f11 type=area --overwrite
+#F13
+r.to.vect input=f13reclass@kasi output=f13 type=area --overwrite
+#F15
+r.to.vect input=f15reclass@kasi output=f15 type=area --overwrite
+
+####可視領域ベクタの出力
+#F01
+v.out.ogr input=f01@kasi type=area output=F01 format=ESRI_Shapefile --overwrite
+#F03
+v.out.ogr input=f03@kasi type=area output=F03 format=ESRI_Shapefile --overwrite  
+#F04
+v.out.ogr input=f04@kasi type=area output=F04 format=ESRI_Shapefile --overwrite  
+#F18
+v.out.ogr input=f18@kasi type=area output=F18 format=ESRI_Shapefile --overwrite  
+#F12
+v.out.ogr input=f12@kasi type=area output=F12 format=ESRI_Shapefile --overwrite 
+#F08
+v.out.ogr input=f08@kasi type=area output=F08 format=ESRI_Shapefile --overwrite 
+#F09
+v.out.ogr input=f09@kasi type=area output=F09 format=ESRI_Shapefile --overwrite
+#F10
+v.out.ogr input=f10@kasi type=area output=F10 format=ESRI_Shapefile --overwrite
+#F11
+v.out.ogr input=f11@kasi type=area output=F11 format=ESRI_Shapefile --overwrite
+#F13
+v.out.ogr input=f13@kasi type=area output=F13 format=ESRI_Shapefile --overwrite
+#F15
+v.out.ogr input=f15@kasi type=area output=F15 format=ESRI_Shapefile --overwrite
+
+
+#F08可視領域_視点3m
+r.viewshed input=DEM@kasi output=f08_3m coordinates=462317,4643958 observer_elevation=3.0
+#F08 reclass
+r.reclass input=f08_3m@kasi output=f08_3m_reclass rules=/home/ishii/GIS_Data/Analysis/2018Futamata/grass/reclass.txt --overwrite
+#ベクタ化
+r.to.vect input=f08_3m_reclass@kasi output=f08_3m type=area --overwrite
+#出力
+v.out.ogr input=f08_3m@kasi type=area output=F08_3m format=ESRI_Shapefile --overwrite
