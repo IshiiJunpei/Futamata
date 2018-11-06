@@ -9828,7 +9828,7 @@ def my_form_open(dialog, layer, feature):
       <ProjectionsEnabled type="int">1</ProjectionsEnabled>
     </SpatialRefSys>
     <Layouts>
-      <lastLayoutExportDir type="QString">/home/ishii/GIS_Data/Analysis/2018Futamata/report/fig/view.pdf</lastLayoutExportDir>
+      <lastLayoutExportDir type="QString">/home/ishii/GIS_Data/Analysis/2018Futamata/report/fig</lastLayoutExportDir>
     </Layouts>
     <WFSTLayers>
       <Insert type="QStringList"/>
