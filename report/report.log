@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.7.1-161114-2.6 (utf8.euc) (TeX Live 2016/Debian) (preloaded format=platex 2018.9.22)  5 NOV 2018 21:23
+This is e-pTeX, Version 3.14159265-p3.7.1-161114-2.6 (utf8.euc) (TeX Live 2016/Debian) (preloaded format=platex 2018.9.22)  6 NOV 2018 12:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -170,11 +170,7 @@ Package: tascmac 2016/08/21 v2.0c ascmac package (community edition)
 (/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip10
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
-) (./report.aux
-
-LaTeX Warning: Label `f01' multiply defined.
-
-)
+) (./report.aux)
 \openout1 = `report.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
@@ -232,7 +228,8 @@ LaTeX Font Info:    Font shape `JT1/hgt/m/n' will be
 LaTeX Font Info:    Font shape `JY1/hgt/m/n' will be
 (Font)              scaled to size 13.31541pt on input line 30.
 File: fig/dounan.pdf Graphic file (type pdf)
- <fig/dounan.pdf>
+
+<fig/dounan.pdf>
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
@@ -327,18 +324,14 @@ File: fig/view.pdf Graphic file (type pdf)
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[8] [9] [10] [11] [12] [13] (./report.aux)
-
-LaTeX Warning: There were multiply-defined labels.
-
- ) 
+[8] [9] [10] [11] [12] [13] (./report.aux) ) 
 Here is how much of TeX's memory you used:
- 3027 strings out of 494820
- 35702 string characters out of 6178927
+ 3030 strings out of 494820
+ 35728 string characters out of 6178927
  98567 words of memory out of 5000000
- 6477 multiletter control sequences out of 15000+600000
- 15520 words of font info for 78 fonts, out of 8000000 for 9000
+ 6479 multiletter control sequences out of 15000+600000
+ 15825 words of font info for 79 fonts, out of 8000000 for 9000
  269 hyphenation exceptions out of 8191
- 26i,8n,22p,600b,991s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 26i,8n,22p,640b,991s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on report.dvi (13 pages, 23944 bytes).
+Output written on report.dvi (13 pages, 24628 bytes).
