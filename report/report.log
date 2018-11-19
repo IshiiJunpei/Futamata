@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.7.1-161114-2.6 (utf8.euc) (TeX Live 2016/Debian) (preloaded format=platex 2018.9.22)  7 NOV 2018 17:25
+This is e-pTeX, Version 3.14159265-p3.7.1-161114-2.6 (utf8.euc) (TeX Live 2016/Debian) (preloaded format=platex 2018.9.22)  20 NOV 2018 05:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -244,43 +244,43 @@ File: fig/haitizu.pdf Graphic file (type pdf)
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 LaTeX Font Info:    Font shape `JT1/hgt/m/n' will be
-(Font)              scaled to size 11.09619pt on input line 58.
+(Font)              scaled to size 11.09619pt on input line 60.
 LaTeX Font Info:    Font shape `JY1/hgt/m/n' will be
-(Font)              scaled to size 11.09619pt on input line 58.
+(Font)              scaled to size 11.09619pt on input line 60.
 [1
 
 ] [2] [3]
-Underfull \hbox (badness 1067) in paragraph at lines 94--95
+Underfull \hbox (badness 1067) in paragraph at lines 96--97
 []\JY1/hmc/m/n/10 現地測量図は以下の手順でデジタル化し \OT1/cmr/m/n/10 GIS \JY1
 /hmc/m/n/10 デ ータを作成した 。 投影系 ・ 座標系は
  []
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 104.
+(Font)              <7> on input line 106.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 104.
+(Font)              <5> on input line 106.
 LaTeX Font Info:    Font shape `JY1/hmc/m/n' will be
-(Font)              scaled to size 6.47278pt on input line 104.
+(Font)              scaled to size 6.47278pt on input line 106.
 LaTeX Font Info:    Font shape `JY1/hmc/m/n' will be
-(Font)              scaled to size 4.62341pt on input line 104.
+(Font)              scaled to size 4.62341pt on input line 106.
 LaTeX Font Info:    Font shape `JT1/hmc/m/n' will be
-(Font)              scaled to size 6.47278pt on input line 104.
+(Font)              scaled to size 6.47278pt on input line 106.
 LaTeX Font Info:    Font shape `JT1/hmc/m/n' will be
-(Font)              scaled to size 7.39746pt on input line 104.
+(Font)              scaled to size 7.39746pt on input line 106.
 LaTeX Font Info:    Font shape `JT1/hmc/m/n' will be
-(Font)              scaled to size 5.5481pt on input line 104.
+(Font)              scaled to size 5.5481pt on input line 106.
 LaTeX Font Info:    Font shape `JT1/hgt/m/n' will be
-(Font)              scaled to size 9.24683pt on input line 107.
+(Font)              scaled to size 9.24683pt on input line 109.
 LaTeX Font Info:    Font shape `JY1/hgt/m/n' will be
-(Font)              scaled to size 9.24683pt on input line 107.
+(Font)              scaled to size 9.24683pt on input line 109.
 [4]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 125.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 127.
 
  (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 125.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 127.
 File: fig/haitizu_tate.pdf Graphic file (type pdf)
 
 <fig/haitizu_tate.pdf>
@@ -326,12 +326,12 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 [8] [9] [10] [11] [12] [13] (./report.aux) ) 
 Here is how much of TeX's memory you used:
- 3030 strings out of 494820
- 35728 string characters out of 6178927
+ 3032 strings out of 494820
+ 35748 string characters out of 6178927
  98567 words of memory out of 5000000
- 6479 multiletter control sequences out of 15000+600000
+ 6481 multiletter control sequences out of 15000+600000
  15825 words of font info for 79 fonts, out of 8000000 for 9000
  269 hyphenation exceptions out of 8191
  26i,8n,22p,640b,991s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on report.dvi (13 pages, 24968 bytes).
+Output written on report.dvi (13 pages, 25168 bytes).
