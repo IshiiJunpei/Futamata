@@ -1,0 +1,2 @@
+/home/ishii/GIS_Data/Analysis/2018Futamata/fig/03_georeferenced/F10.tif filter=lfs diff=lfs merge=lfs -text
+/home/ishii/GIS_Data/Analysis/2018Futamata/fig/03_georeferenced/F15.tif filter=lfs diff=lfs merge=lfs -text
