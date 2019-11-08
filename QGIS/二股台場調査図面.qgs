@@ -19,9 +19,6 @@
   </projectCrs>
   <layer-tree-group>
     <customproperties/>
-    <layer-tree-layer name="zangou_point" providerKey="ogr" expanded="1" id="zangou_point_ef87464e_e1e5_47f1_9a4d_4c57a73ee290" source="../data/zangou_point.csv|layername=zangou_point" checked="Qt::Checked">
-      <customproperties/>
-    </layer-tree-layer>
     <layer-tree-layer name="Zongou_point" providerKey="ogr" expanded="1" id="Zongou_point_472ac6e8_6dfd_4118_acf0_77e349cd90a6" source="../data/Zongou_point.shp|layername=Zongou_point" checked="Qt::Checked">
       <customproperties/>
     </layer-tree-layer>
@@ -116,27 +113,25 @@
         <property key="expandedLegendNodes"/>
       </customproperties>
     </layer-tree-layer>
-    <layer-tree-layer name="f09" providerKey="ogr" expanded="1" id="f09_3546aab8_16cb_4567_a943_f83488bab739" source="../grass/F09/f09.shp" checked="Qt::Unchecked">
+    <layer-tree-layer name="f09" providerKey="ogr" expanded="1" id="f09_3546aab8_16cb_4567_a943_f83488bab739" source="../grass/F09/f09.shp" checked="Qt::Checked">
       <customproperties>
         <property key="expandedLegendNodes"/>
       </customproperties>
+    </layer-tree-layer>
+    <layer-tree-layer name="f08" providerKey="ogr" expanded="1" id="f08_ff2f3c56_9fbb_476a_8fc2_43c74e7eee97" source="../grass/F08/f08.shp" checked="Qt::Checked">
+      <customproperties>
+        <property key="expandedLegendNodes"/>
+      </customproperties>
+    </layer-tree-layer>
+    <layer-tree-layer name="f19" providerKey="ogr" expanded="1" id="f19_b5b03fad_ea36_4e2a_9c4f_e156519e33c8" source="../grass/F19/f19.shp" checked="Qt::Unchecked">
+      <customproperties/>
     </layer-tree-layer>
     <layer-tree-layer name="f12" providerKey="ogr" expanded="1" id="f12_0214eeba_4aa8_4663_a78e_a2a882d001ed" source="../grass/F12/f12.shp" checked="Qt::Unchecked">
       <customproperties>
         <property key="expandedLegendNodes"/>
       </customproperties>
     </layer-tree-layer>
-    <layer-tree-layer name="f08" providerKey="ogr" expanded="1" id="f08_ff2f3c56_9fbb_476a_8fc2_43c74e7eee97" source="../grass/F08/f08.shp" checked="Qt::Unchecked">
-      <customproperties>
-        <property key="expandedLegendNodes"/>
-      </customproperties>
-    </layer-tree-layer>
-    <layer-tree-layer name="f18" providerKey="ogr" expanded="1" id="f18_b0d4115a_e3a0_4a8b_a40f_03d6db84bbde" source="../grass/F18/f18.shp" checked="Qt::Unchecked">
-      <customproperties>
-        <property key="expandedLegendNodes"/>
-      </customproperties>
-    </layer-tree-layer>
-    <layer-tree-layer name="f04" providerKey="ogr" expanded="1" id="f04_023fbd8d_c0c5_41d9_8584_dd7633e8634b" source="../grass/F04/f04.shp" checked="Qt::Unchecked">
+    <layer-tree-layer name="f01" providerKey="ogr" expanded="1" id="f01_5ad5852c_47aa_4ea8_bf17_29a240baeaa2" source="../grass/F01/f01.shp" checked="Qt::Unchecked">
       <customproperties>
         <property key="expandedLegendNodes"/>
       </customproperties>
@@ -146,7 +141,15 @@
         <property key="expandedLegendNodes"/>
       </customproperties>
     </layer-tree-layer>
-    <layer-tree-layer name="f01" providerKey="ogr" expanded="1" id="f01_5ad5852c_47aa_4ea8_bf17_29a240baeaa2" source="../grass/F01/f01.shp" checked="Qt::Unchecked">
+    <layer-tree-layer name="f20" providerKey="ogr" expanded="1" id="f20_126c368b_6e0b_4001_ac94_af351145caee" source="../grass/F20/f20.shp" checked="Qt::Unchecked">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer name="f18" providerKey="ogr" expanded="1" id="f18_b0d4115a_e3a0_4a8b_a40f_03d6db84bbde" source="../grass/F18/f18.shp" checked="Qt::Unchecked">
+      <customproperties>
+        <property key="expandedLegendNodes"/>
+      </customproperties>
+    </layer-tree-layer>
+    <layer-tree-layer name="f04" providerKey="ogr" expanded="1" id="f04_023fbd8d_c0c5_41d9_8584_dd7633e8634b" source="../grass/F04/f04.shp" checked="Qt::Unchecked">
       <customproperties>
         <property key="expandedLegendNodes"/>
       </customproperties>
@@ -189,7 +192,8 @@
       <item>地理院標準地図_510c48c9_ad59_40e2_b83a_dde0329bebe1</item>
       <item>data_Mouri_42c05fdf_c09b_4e21_abe0_45709285ec8f</item>
       <item>Zongou_point_472ac6e8_6dfd_4118_acf0_77e349cd90a6</item>
-      <item>zangou_point_ef87464e_e1e5_47f1_9a4d_4c57a73ee290</item>
+      <item>f20_126c368b_6e0b_4001_ac94_af351145caee</item>
+      <item>f19_b5b03fad_ea36_4e2a_9c4f_e156519e33c8</item>
     </custom-order>
   </layer-tree-group>
   <snapping-settings type="1" tolerance="12" enabled="0" unit="1" mode="2" intersection-snapping="0">
@@ -214,22 +218,24 @@
       <layer-setting type="1" id="f13_3bee909f_d68c_48eb_a365_e0307ebdf796" tolerance="12" units="1" enabled="0"/>
       <layer-setting type="1" id="北側高位塹壕_03ddad30_4aea_441f_9e70_50de7e83c5a3" tolerance="12" units="1" enabled="0"/>
       <layer-setting type="1" id="data_950bc3ae_2a54_411e_ada5_852eafdb7e25" tolerance="12" units="1" enabled="0"/>
+      <layer-setting type="1" id="f20_126c368b_6e0b_4001_ac94_af351145caee" tolerance="12" units="1" enabled="0"/>
       <layer-setting type="1" id="f04_023fbd8d_c0c5_41d9_8584_dd7633e8634b" tolerance="12" units="1" enabled="0"/>
       <layer-setting type="1" id="f12_0214eeba_4aa8_4663_a78e_a2a882d001ed" tolerance="12" units="1" enabled="0"/>
       <layer-setting type="1" id="roads_3dc03e0e_fb4a_4f39_b72e_bbc9c6801b72" tolerance="12" units="1" enabled="0"/>
       <layer-setting type="1" id="data_be6adf32_e582_44b1_b859_d5f5da9e8302" tolerance="12" units="1" enabled="0"/>
       <layer-setting type="1" id="確認済み塹壕_f23e7730_549e_4172_999c_52ca1c54b28b" tolerance="12" units="1" enabled="0"/>
       <layer-setting type="1" id="Zongou_point_472ac6e8_6dfd_4118_acf0_77e349cd90a6" tolerance="12" units="1" enabled="0"/>
+      <layer-setting type="1" id="f19_b5b03fad_ea36_4e2a_9c4f_e156519e33c8" tolerance="12" units="1" enabled="0"/>
     </individual-layer-settings>
   </snapping-settings>
   <relations/>
   <mapcanvas name="theMapCanvas" annotationsVisible="1">
     <units>meters</units>
     <extent>
-      <xmin>462276.21023935836274177</xmin>
-      <ymin>4643808.39436358958482742</ymin>
-      <xmax>462492.64108426810707897</xmax>
-      <ymax>4643973.21785860881209373</ymax>
+      <xmin>462152.75485555472550914</xmin>
+      <ymin>4643742.54779145587235689</ymin>
+      <xmax>462585.61654537421418354</xmax>
+      <ymax>4644072.19478149432688951</ymax>
     </extent>
     <rotation>0</rotation>
     <destinationsrs>
@@ -248,11 +254,6 @@
   </mapcanvas>
   <projectModels/>
   <legend updateDrawingOrder="true">
-    <legendlayer drawingOrder="-1" name="zangou_point" open="true" checked="Qt::Checked" showFeatureCount="0">
-      <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" visible="1" layerid="zangou_point_ef87464e_e1e5_47f1_9a4d_4c57a73ee290"/>
-      </filegroup>
-    </legendlayer>
     <legendlayer drawingOrder="-1" name="Zongou_point" open="true" checked="Qt::Checked" showFeatureCount="0">
       <filegroup open="true" hidden="false">
         <legendlayerfile isInOverview="0" visible="1" layerid="Zongou_point_472ac6e8_6dfd_4118_acf0_77e349cd90a6"/>
@@ -353,9 +354,19 @@
         <legendlayerfile isInOverview="0" visible="0" layerid="f15_ccd5ae30_a14e_4349_8ecb_deabd359bb3d"/>
       </filegroup>
     </legendlayer>
-    <legendlayer drawingOrder="-1" name="f09" open="true" checked="Qt::Unchecked" showFeatureCount="0">
+    <legendlayer drawingOrder="-1" name="f09" open="true" checked="Qt::Checked" showFeatureCount="0">
       <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" visible="0" layerid="f09_3546aab8_16cb_4567_a943_f83488bab739"/>
+        <legendlayerfile isInOverview="0" visible="1" layerid="f09_3546aab8_16cb_4567_a943_f83488bab739"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer drawingOrder="-1" name="f08" open="true" checked="Qt::Checked" showFeatureCount="0">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile isInOverview="0" visible="1" layerid="f08_ff2f3c56_9fbb_476a_8fc2_43c74e7eee97"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer drawingOrder="-1" name="f19" open="true" checked="Qt::Unchecked" showFeatureCount="0">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile isInOverview="0" visible="0" layerid="f19_b5b03fad_ea36_4e2a_9c4f_e156519e33c8"/>
       </filegroup>
     </legendlayer>
     <legendlayer drawingOrder="-1" name="f12" open="true" checked="Qt::Unchecked" showFeatureCount="0">
@@ -363,9 +374,19 @@
         <legendlayerfile isInOverview="0" visible="0" layerid="f12_0214eeba_4aa8_4663_a78e_a2a882d001ed"/>
       </filegroup>
     </legendlayer>
-    <legendlayer drawingOrder="-1" name="f08" open="true" checked="Qt::Unchecked" showFeatureCount="0">
+    <legendlayer drawingOrder="-1" name="f01" open="true" checked="Qt::Unchecked" showFeatureCount="0">
       <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" visible="0" layerid="f08_ff2f3c56_9fbb_476a_8fc2_43c74e7eee97"/>
+        <legendlayerfile isInOverview="0" visible="0" layerid="f01_5ad5852c_47aa_4ea8_bf17_29a240baeaa2"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer drawingOrder="-1" name="f03" open="true" checked="Qt::Unchecked" showFeatureCount="0">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile isInOverview="0" visible="0" layerid="f03_a865c334_fd75_415f_8fed_fe47845640d4"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer drawingOrder="-1" name="f20" open="true" checked="Qt::Unchecked" showFeatureCount="0">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile isInOverview="0" visible="0" layerid="f20_126c368b_6e0b_4001_ac94_af351145caee"/>
       </filegroup>
     </legendlayer>
     <legendlayer drawingOrder="-1" name="f18" open="true" checked="Qt::Unchecked" showFeatureCount="0">
@@ -376,16 +397,6 @@
     <legendlayer drawingOrder="-1" name="f04" open="true" checked="Qt::Unchecked" showFeatureCount="0">
       <filegroup open="true" hidden="false">
         <legendlayerfile isInOverview="0" visible="0" layerid="f04_023fbd8d_c0c5_41d9_8584_dd7633e8634b"/>
-      </filegroup>
-    </legendlayer>
-    <legendlayer drawingOrder="-1" name="f03" open="true" checked="Qt::Unchecked" showFeatureCount="0">
-      <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" visible="0" layerid="f03_a865c334_fd75_415f_8fed_fe47845640d4"/>
-      </filegroup>
-    </legendlayer>
-    <legendlayer drawingOrder="-1" name="f01" open="true" checked="Qt::Unchecked" showFeatureCount="0">
-      <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" visible="0" layerid="f01_5ad5852c_47aa_4ea8_bf17_29a240baeaa2"/>
       </filegroup>
     </legendlayer>
     <legendlayer drawingOrder="-1" name="keisha_utm54" open="false" checked="Qt::Unchecked" showFeatureCount="0">
@@ -3880,7 +3891,7 @@ def my_form_open(dialog, layer, feature):
           <symbol type="fill" name="0" clip_to_extent="1" force_rhr="0" alpha="1">
             <layer pass="0" enabled="1" class="SimpleFill" locked="0">
               <prop k="border_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-              <prop k="color" v="119,68,17,255"/>
+              <prop k="color" v="227,26,28,255"/>
               <prop k="joinstyle" v="bevel"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
@@ -4955,7 +4966,7 @@ def my_form_open(dialog, layer, feature):
           <symbol type="fill" name="0" clip_to_extent="1" force_rhr="0" alpha="1">
             <layer pass="0" enabled="1" class="SimpleFill" locked="0">
               <prop k="border_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-              <prop k="color" v="17,119,68,255"/>
+              <prop k="color" v="119,68,17,255"/>
               <prop k="joinstyle" v="bevel"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
@@ -5600,7 +5611,7 @@ def my_form_open(dialog, layer, feature):
           <symbol type="fill" name="0" clip_to_extent="1" force_rhr="0" alpha="1">
             <layer pass="0" enabled="1" class="SimpleFill" locked="0">
               <prop k="border_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-              <prop k="color" v="119,68,17,255"/>
+              <prop k="color" v="227,26,28,255"/>
               <prop k="joinstyle" v="bevel"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
@@ -5635,6 +5646,434 @@ def my_form_open(dialog, layer, feature):
         <DiagramCategory height="15" scaleDependency="Area" backgroundColor="#ffffff" diagramOrientation="Up" opacity="1" backgroundAlpha="255" minScaleDenominator="0" lineSizeType="MM" penColor="#000000" penAlpha="255" enabled="0" minimumSize="0" rotationOffset="270" maxScaleDenominator="1e+08" labelPlacementMethod="XHeight" sizeType="MM" scaleBasedVisibility="0" lineSizeScale="3x:0,0,0,0,0,0" penWidth="0" width="15" sizeScale="3x:0,0,0,0,0,0" barWidth="5">
           <fontProperties description="MigMix 1P,11,-1,5,50,0,0,0,0,0" style=""/>
           <attribute color="#000000" label="" field=""/>
+        </DiagramCategory>
+      </SingleCategoryDiagramRenderer>
+      <DiagramLayerSettings priority="0" zIndex="0" placement="1" dist="0" obstacle="0" showAll="1" linePlacementFlags="18">
+        <properties>
+          <Option type="Map">
+            <Option type="QString" name="name" value=""/>
+            <Option name="properties"/>
+            <Option type="QString" name="type" value="collection"/>
+          </Option>
+        </properties>
+      </DiagramLayerSettings>
+      <geometryOptions removeDuplicateNodes="0" geometryPrecision="0">
+        <activeChecks/>
+        <checkConfiguration/>
+      </geometryOptions>
+      <fieldConfiguration>
+        <field name="cat">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="value">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias index="0" name="" field="cat"/>
+        <alias index="1" name="" field="value"/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default field="cat" expression="" applyOnUpdate="0"/>
+        <default field="value" expression="" applyOnUpdate="0"/>
+      </defaults>
+      <constraints>
+        <constraint notnull_strength="0" exp_strength="0" constraints="0" unique_strength="0" field="cat"/>
+        <constraint notnull_strength="0" exp_strength="0" constraints="0" unique_strength="0" field="value"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint exp="" desc="" field="cat"/>
+        <constraint exp="" desc="" field="value"/>
+      </constraintExpressions>
+      <expressionfields/>
+      <attributeactions>
+        <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
+      </attributeactions>
+      <attributetableconfig sortOrder="0" sortExpression="" actionWidgetStyle="dropDown">
+        <columns>
+          <column type="field" name="cat" width="-1" hidden="0"/>
+          <column type="field" name="value" width="-1" hidden="0"/>
+          <column type="actions" width="-1" hidden="1"/>
+        </columns>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
+"""
+フォームが開かれた時に呼び出されるPython関数を使用してフォームにエクストラロジックを追加することができます.
+"Python初期化関数"フィールドに関数の名前を入力します.
+例は次のとおりです:
+"""
+from qgis.PyQt.QtWidgets import QWidget
+
+def my_form_open(dialog, layer, feature):
+	geom = feature.geometry()
+	control = dialog.findChild(QWidget, "MyLineEdit")
+]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable>
+        <field name="cat" editable="1"/>
+        <field name="value" editable="1"/>
+      </editable>
+      <labelOnTop>
+        <field name="cat" labelOnTop="0"/>
+        <field name="value" labelOnTop="0"/>
+      </labelOnTop>
+      <widgets/>
+      <previewExpression>cat</previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+    <maplayer type="vector" autoRefreshEnabled="0" simplifyMaxScale="1" styleCategories="AllStyleCategories" autoRefreshTime="0" simplifyDrawingHints="1" refreshOnNotifyMessage="" maxScale="0" readOnly="0" simplifyAlgorithm="0" geometry="Polygon" hasScaleBasedVisibilityFlag="0" minScale="1e+08" labelsEnabled="0" simplifyDrawingTol="1" simplifyLocal="1" refreshOnNotifyEnabled="0">
+      <extent>
+        <xmin>457310</xmin>
+        <ymin>4639800</ymin>
+        <xmax>466800</xmax>
+        <ymax>4646240</ymax>
+      </extent>
+      <id>f19_b5b03fad_ea36_4e2a_9c4f_e156519e33c8</id>
+      <datasource>../grass/F19/f19.shp</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>f19</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=utm +zone=54 +ellps=GRS80 +units=m +no_defs</proj4>
+          <srsid>28861</srsid>
+          <srid>102596</srid>
+          <authid>EPSG:102596</authid>
+          <description>JGD_2011_UTM_Zone_54N</description>
+          <projectionacronym>utm</projectionacronym>
+          <ellipsoidacronym>GRS80</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <contact>
+          <name></name>
+          <organization></organization>
+          <position></position>
+          <voice></voice>
+          <fax></fax>
+          <email></email>
+          <role></role>
+        </contact>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent>
+          <spatial crs="" miny="0" minz="0" maxz="0" minx="0" maxy="0" maxx="0" dimensions="2"/>
+          <temporal>
+            <period>
+              <start></start>
+              <end></end>
+            </period>
+          </temporal>
+        </extent>
+      </resourceMetadata>
+      <provider encoding="UTF-8">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <legend type="default-vector"/>
+      <expressionfields/>
+      <map-layer-style-manager current="デフォルト">
+        <map-layer-style name="デフォルト"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <renderer-v2 type="singleSymbol" symbollevels="0" enableorderby="0" forceraster="0">
+        <symbols>
+          <symbol type="fill" name="0" clip_to_extent="1" force_rhr="0" alpha="1">
+            <layer pass="0" enabled="1" class="SimpleFill" locked="0">
+              <prop k="border_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="color" v="119,68,17,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="35,35,35,255"/>
+              <prop k="outline_style" v="no"/>
+              <prop k="outline_width" v="0.26"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option type="QString" name="name" value=""/>
+                  <Option name="properties"/>
+                  <Option type="QString" name="type" value="collection"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties>
+        <property key="embeddedWidgets/count" value="0"/>
+        <property key="variableNames"/>
+        <property key="variableValues"/>
+      </customproperties>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>0.4</layerOpacity>
+      <SingleCategoryDiagramRenderer diagramType="Histogram" attributeLegend="1">
+        <DiagramCategory height="15" scaleDependency="Area" backgroundColor="#ffffff" diagramOrientation="Up" opacity="1" backgroundAlpha="255" minScaleDenominator="0" lineSizeType="MM" penColor="#000000" penAlpha="255" enabled="0" minimumSize="0" rotationOffset="270" maxScaleDenominator="1e+08" labelPlacementMethod="XHeight" sizeType="MM" scaleBasedVisibility="0" lineSizeScale="3x:0,0,0,0,0,0" penWidth="0" width="15" sizeScale="3x:0,0,0,0,0,0" barWidth="5">
+          <fontProperties description="M+ 1c Ultra-Light,11,-1,5,50,0,0,0,0,0" style=""/>
+        </DiagramCategory>
+      </SingleCategoryDiagramRenderer>
+      <DiagramLayerSettings priority="0" zIndex="0" placement="1" dist="0" obstacle="0" showAll="1" linePlacementFlags="18">
+        <properties>
+          <Option type="Map">
+            <Option type="QString" name="name" value=""/>
+            <Option name="properties"/>
+            <Option type="QString" name="type" value="collection"/>
+          </Option>
+        </properties>
+      </DiagramLayerSettings>
+      <geometryOptions removeDuplicateNodes="0" geometryPrecision="0">
+        <activeChecks/>
+        <checkConfiguration/>
+      </geometryOptions>
+      <fieldConfiguration>
+        <field name="cat">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="value">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias index="0" name="" field="cat"/>
+        <alias index="1" name="" field="value"/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default field="cat" expression="" applyOnUpdate="0"/>
+        <default field="value" expression="" applyOnUpdate="0"/>
+      </defaults>
+      <constraints>
+        <constraint notnull_strength="0" exp_strength="0" constraints="0" unique_strength="0" field="cat"/>
+        <constraint notnull_strength="0" exp_strength="0" constraints="0" unique_strength="0" field="value"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint exp="" desc="" field="cat"/>
+        <constraint exp="" desc="" field="value"/>
+      </constraintExpressions>
+      <expressionfields/>
+      <attributeactions>
+        <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
+      </attributeactions>
+      <attributetableconfig sortOrder="0" sortExpression="" actionWidgetStyle="dropDown">
+        <columns>
+          <column type="field" name="cat" width="-1" hidden="0"/>
+          <column type="field" name="value" width="-1" hidden="0"/>
+          <column type="actions" width="-1" hidden="1"/>
+        </columns>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
+"""
+フォームが開かれた時に呼び出されるPython関数を使用してフォームにエクストラロジックを追加することができます.
+"Python初期化関数"フィールドに関数の名前を入力します.
+例は次のとおりです:
+"""
+from qgis.PyQt.QtWidgets import QWidget
+
+def my_form_open(dialog, layer, feature):
+	geom = feature.geometry()
+	control = dialog.findChild(QWidget, "MyLineEdit")
+]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable>
+        <field name="cat" editable="1"/>
+        <field name="value" editable="1"/>
+      </editable>
+      <labelOnTop>
+        <field name="cat" labelOnTop="0"/>
+        <field name="value" labelOnTop="0"/>
+      </labelOnTop>
+      <widgets/>
+      <previewExpression>cat</previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+    <maplayer type="vector" autoRefreshEnabled="0" simplifyMaxScale="1" styleCategories="AllStyleCategories" autoRefreshTime="0" simplifyDrawingHints="1" refreshOnNotifyMessage="" maxScale="0" readOnly="0" simplifyAlgorithm="0" geometry="Polygon" hasScaleBasedVisibilityFlag="0" minScale="1e+08" labelsEnabled="0" simplifyDrawingTol="1" simplifyLocal="1" refreshOnNotifyEnabled="0">
+      <extent>
+        <xmin>457310</xmin>
+        <ymin>4641190</ymin>
+        <xmax>466670</xmax>
+        <ymax>4647510</ymax>
+      </extent>
+      <id>f20_126c368b_6e0b_4001_ac94_af351145caee</id>
+      <datasource>../grass/F20/f20.shp</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>f20</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=utm +zone=54 +ellps=GRS80 +units=m +no_defs</proj4>
+          <srsid>28861</srsid>
+          <srid>102596</srid>
+          <authid>EPSG:102596</authid>
+          <description>JGD_2011_UTM_Zone_54N</description>
+          <projectionacronym>utm</projectionacronym>
+          <ellipsoidacronym>GRS80</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <contact>
+          <name></name>
+          <organization></organization>
+          <position></position>
+          <voice></voice>
+          <fax></fax>
+          <email></email>
+          <role></role>
+        </contact>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent>
+          <spatial crs="" miny="0" minz="0" maxz="0" minx="0" maxy="0" maxx="0" dimensions="2"/>
+          <temporal>
+            <period>
+              <start></start>
+              <end></end>
+            </period>
+          </temporal>
+        </extent>
+      </resourceMetadata>
+      <provider encoding="UTF-8">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <legend type="default-vector"/>
+      <expressionfields/>
+      <map-layer-style-manager current="デフォルト">
+        <map-layer-style name="デフォルト"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <renderer-v2 type="singleSymbol" symbollevels="0" enableorderby="0" forceraster="0">
+        <symbols>
+          <symbol type="fill" name="0" clip_to_extent="1" force_rhr="0" alpha="1">
+            <layer pass="0" enabled="1" class="SimpleFill" locked="0">
+              <prop k="border_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="color" v="227,26,28,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="35,35,35,255"/>
+              <prop k="outline_style" v="no"/>
+              <prop k="outline_width" v="0.26"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option type="QString" name="name" value=""/>
+                  <Option name="properties"/>
+                  <Option type="QString" name="type" value="collection"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties>
+        <property key="embeddedWidgets/count" value="0"/>
+        <property key="variableNames"/>
+        <property key="variableValues"/>
+      </customproperties>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>0.4</layerOpacity>
+      <SingleCategoryDiagramRenderer diagramType="Histogram" attributeLegend="1">
+        <DiagramCategory height="15" scaleDependency="Area" backgroundColor="#ffffff" diagramOrientation="Up" opacity="1" backgroundAlpha="255" minScaleDenominator="0" lineSizeType="MM" penColor="#000000" penAlpha="255" enabled="0" minimumSize="0" rotationOffset="270" maxScaleDenominator="1e+08" labelPlacementMethod="XHeight" sizeType="MM" scaleBasedVisibility="0" lineSizeScale="3x:0,0,0,0,0,0" penWidth="0" width="15" sizeScale="3x:0,0,0,0,0,0" barWidth="5">
+          <fontProperties description="M+ 1c Ultra-Light,11,-1,5,50,0,0,0,0,0" style=""/>
         </DiagramCategory>
       </SingleCategoryDiagramRenderer>
       <DiagramLayerSettings priority="0" zIndex="0" placement="1" dist="0" obstacle="0" showAll="1" linePlacementFlags="18">
@@ -7686,173 +8125,6 @@ def my_form_open(dialog, layer, feature):
       <previewExpression></previewExpression>
       <mapTip></mapTip>
     </maplayer>
-    <maplayer type="vector" autoRefreshEnabled="0" styleCategories="AllStyleCategories" autoRefreshTime="0" refreshOnNotifyMessage="" maxScale="0" readOnly="0" geometry="No geometry" hasScaleBasedVisibilityFlag="0" minScale="1e+08" refreshOnNotifyEnabled="0">
-      <id>zangou_point_ef87464e_e1e5_47f1_9a4d_4c57a73ee290</id>
-      <datasource>../data/zangou_point.csv|layername=zangou_point</datasource>
-      <keywordList>
-        <value></value>
-      </keywordList>
-      <layername>zangou_point</layername>
-      <srs>
-        <spatialrefsys>
-          <proj4></proj4>
-          <srsid>0</srsid>
-          <srid>0</srid>
-          <authid></authid>
-          <description></description>
-          <projectionacronym></projectionacronym>
-          <ellipsoidacronym></ellipsoidacronym>
-          <geographicflag>false</geographicflag>
-        </spatialrefsys>
-      </srs>
-      <resourceMetadata>
-        <identifier></identifier>
-        <parentidentifier></parentidentifier>
-        <language></language>
-        <type></type>
-        <title></title>
-        <abstract></abstract>
-        <links/>
-        <fees></fees>
-        <encoding></encoding>
-        <crs>
-          <spatialrefsys>
-            <proj4></proj4>
-            <srsid>0</srsid>
-            <srid>0</srid>
-            <authid></authid>
-            <description></description>
-            <projectionacronym></projectionacronym>
-            <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
-          </spatialrefsys>
-        </crs>
-        <extent/>
-      </resourceMetadata>
-      <provider encoding="UTF-8">ogr</provider>
-      <vectorjoins/>
-      <layerDependencies/>
-      <dataDependencies/>
-      <legend type="default-vector"/>
-      <expressionfields/>
-      <map-layer-style-manager current="デフォルト">
-        <map-layer-style name="デフォルト"/>
-      </map-layer-style-manager>
-      <auxiliaryLayer/>
-      <flags>
-        <Identifiable>1</Identifiable>
-        <Removable>1</Removable>
-        <Searchable>1</Searchable>
-      </flags>
-      <customproperties/>
-      <geometryOptions removeDuplicateNodes="0" geometryPrecision="0">
-        <activeChecks type="StringList">
-          <Option type="QString" value=""/>
-        </activeChecks>
-        <checkConfiguration/>
-      </geometryOptions>
-      <fieldConfiguration>
-        <field name="fid">
-          <editWidget type="">
-            <config>
-              <Option/>
-            </config>
-          </editWidget>
-        </field>
-        <field name="name">
-          <editWidget type="">
-            <config>
-              <Option/>
-            </config>
-          </editWidget>
-        </field>
-        <field name="lat">
-          <editWidget type="">
-            <config>
-              <Option/>
-            </config>
-          </editWidget>
-        </field>
-        <field name="lon">
-          <editWidget type="">
-            <config>
-              <Option/>
-            </config>
-          </editWidget>
-        </field>
-        <field name="utm54_x">
-          <editWidget type="">
-            <config>
-              <Option/>
-            </config>
-          </editWidget>
-        </field>
-        <field name="utm54_y">
-          <editWidget type="">
-            <config>
-              <Option/>
-            </config>
-          </editWidget>
-        </field>
-      </fieldConfiguration>
-      <aliases>
-        <alias index="0" name="" field="fid"/>
-        <alias index="1" name="" field="name"/>
-        <alias index="2" name="" field="lat"/>
-        <alias index="3" name="" field="lon"/>
-        <alias index="4" name="" field="utm54_x"/>
-        <alias index="5" name="" field="utm54_y"/>
-      </aliases>
-      <excludeAttributesWMS/>
-      <excludeAttributesWFS/>
-      <defaults>
-        <default field="fid" expression="" applyOnUpdate="0"/>
-        <default field="name" expression="" applyOnUpdate="0"/>
-        <default field="lat" expression="" applyOnUpdate="0"/>
-        <default field="lon" expression="" applyOnUpdate="0"/>
-        <default field="utm54_x" expression="" applyOnUpdate="0"/>
-        <default field="utm54_y" expression="" applyOnUpdate="0"/>
-      </defaults>
-      <constraints>
-        <constraint notnull_strength="0" exp_strength="0" constraints="0" unique_strength="0" field="fid"/>
-        <constraint notnull_strength="0" exp_strength="0" constraints="0" unique_strength="0" field="name"/>
-        <constraint notnull_strength="0" exp_strength="0" constraints="0" unique_strength="0" field="lat"/>
-        <constraint notnull_strength="0" exp_strength="0" constraints="0" unique_strength="0" field="lon"/>
-        <constraint notnull_strength="0" exp_strength="0" constraints="0" unique_strength="0" field="utm54_x"/>
-        <constraint notnull_strength="0" exp_strength="0" constraints="0" unique_strength="0" field="utm54_y"/>
-      </constraints>
-      <constraintExpressions>
-        <constraint exp="" desc="" field="fid"/>
-        <constraint exp="" desc="" field="name"/>
-        <constraint exp="" desc="" field="lat"/>
-        <constraint exp="" desc="" field="lon"/>
-        <constraint exp="" desc="" field="utm54_x"/>
-        <constraint exp="" desc="" field="utm54_y"/>
-      </constraintExpressions>
-      <expressionfields/>
-      <attributeactions>
-        <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
-      </attributeactions>
-      <attributetableconfig sortOrder="0" sortExpression="" actionWidgetStyle="dropDown">
-        <columns/>
-      </attributetableconfig>
-      <conditionalstyles>
-        <rowstyles/>
-        <fieldstyles/>
-      </conditionalstyles>
-      <editform tolerant="1"></editform>
-      <editforminit/>
-      <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath></editforminitfilepath>
-      <editforminitcode><![CDATA[]]></editforminitcode>
-      <featformsuppress>0</featformsuppress>
-      <editorlayout>generatedlayout</editorlayout>
-      <editable/>
-      <labelOnTop/>
-      <widgets/>
-      <previewExpression></previewExpression>
-      <mapTip></mapTip>
-    </maplayer>
     <maplayer type="vector" autoRefreshEnabled="0" simplifyMaxScale="1" styleCategories="AllStyleCategories" autoRefreshTime="0" simplifyDrawingHints="0" refreshOnNotifyMessage="" maxScale="0" readOnly="0" simplifyAlgorithm="0" geometry="Point" hasScaleBasedVisibilityFlag="0" minScale="1e+08" labelsEnabled="1" simplifyDrawingTol="1" simplifyLocal="1" refreshOnNotifyEnabled="0">
       <extent>
         <xmin>462128</xmin>
@@ -8956,7 +9228,8 @@ def my_form_open(dialog, layer, feature):
     <layer id="地理院標準地図_510c48c9_ad59_40e2_b83a_dde0329bebe1"/>
     <layer id="data_Mouri_42c05fdf_c09b_4e21_abe0_45709285ec8f"/>
     <layer id="Zongou_point_472ac6e8_6dfd_4118_acf0_77e349cd90a6"/>
-    <layer id="zangou_point_ef87464e_e1e5_47f1_9a4d_4c57a73ee290"/>
+    <layer id="f20_126c368b_6e0b_4001_ac94_af351145caee"/>
+    <layer id="f19_b5b03fad_ea36_4e2a_9c4f_e156519e33c8"/>
   </layerorder>
   <properties>
     <WMSFees type="QString">conditions unknown</WMSFees>

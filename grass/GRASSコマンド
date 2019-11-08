@@ -1,36 +1,33 @@
 ####可視領域算出　上書きは --overwrite　フラグ
 ####中心座標は data/zangou_point.csv を使用
 #F01可視領域
-r.viewshed input=DEM@kasi output=f01 coordinates=462305,4643815 observer_elevation=1.75 --overwrite
+r.viewshed input=DEM@kasi output=f01 coordinates=462309.551,4643824.67 observer_elevation=1.75 --overwrite
 #F02可視領域
 # r.viewshed input=DEM@kasi output=f02 coordinates=462258,4643696 observer_elevation=1.75
 #F03可視領域
-r.viewshed input=DEM@kasi output=f03 coordinates=462263,4643659 observer_elevation=1.75 --overwrite
+r.viewshed input=DEM@kasi output=f03 coordinates=462260.601,4643648.582 observer_elevation=1.75 --overwrite
 #F04可視領域
-r.viewshed input=DEM@kasi output=f04 coordinates=462264,4643606 observer_elevation=1.75 --overwrite
+r.viewshed input=DEM@kasi output=f04 coordinates=462263.748,4643599.466 observer_elevation=1.75 --overwrite
 #F18可視領域
-r.viewshed input=DEM@kasi output=f18 coordinates=462230,4643587 observer_elevation=1.75 --overwrite
+r.viewshed input=DEM@kasi output=f18 coordinates=462227.802,4643588.202 observer_elevation=1.75 --overwrite
 #F12可視領域
-r.viewshed input=DEM@kasi output=f12 coordinates=462373,4643863 observer_elevation=1.75 --overwrite
+r.viewshed input=DEM@kasi output=f12 coordinates=462370.014,4643865.71 observer_elevation=1.75 --overwrite
 #F08可視領域
-r.viewshed input=DEM@kasi output=f08 coordinates=462317,4643958 observer_elevation=1.75 --overwrite
+r.viewshed input=DEM@kasi output=f08 coordinates=462316.343,4643958.558 observer_elevation=1.75 --overwrite
 #F09可視領域
-r.viewshed input=DEM@kasi output=f09 coordinates=462330,4643967 observer_elevation=1.75 --overwrite
+r.viewshed input=DEM@kasi output=f09 coordinates=462340.362,4643965.681 observer_elevation=1.75 --overwrite
 #F10可視領域
-r.viewshed input=DEM@kasi output=f10 coordinates=462331,4644032 observer_elevation=1.75 --overwrite
+r.viewshed input=DEM@kasi output=f10 coordinates=462335.476,4644027.676 observer_elevation=1.75 --overwrite
 #F11可視領域
-r.viewshed input=DEM@kasi output=f11 coordinates=462367,4644065 observer_elevation=1.75 --overwrite
+r.viewshed input=DEM@kasi output=f11 coordinates=462367.778,4644059.15 observer_elevation=1.75 --overwrite
 #F13可視領域
-r.viewshed input=DEM@kasi output=f13 coordinates=462417,4644075 observer_elevation=1.75 --overwrite
+r.viewshed input=DEM@kasi output=f13 coordinates=462414.409,4644086.11 observer_elevation=1.75 --overwrite
 #F15可視領域
-r.viewshed input=DEM@kasi output=f15 coordinates=462515,4644165 observer_elevation=1.75 --overwrite
-#F18可視領域
-r.viewshed input=DEM@kasi output=f15 coordinates=462515,4644165 observer_elevation=1.75 --overwrite
+r.viewshed input=DEM@kasi output=f15 coordinates=462513.137,4644172.58 observer_elevation=1.75 --overwrite
 #F19可視領域
-r.viewshed input=DEM@kasi output=f15 coordinates=462515,4644165 observer_elevation=1.75 --overwrite
+r.viewshed input=DEM@kasi output=f19 coordinates=462359.578,4643843.678 observer_elevation=1.75 --overwrite
 #F20可視領域
-r.viewshed input=DEM@kasi output=f15 coordinates=462515,4644165 observer_elevation=1.75 --overwrite
-
+r.viewshed input=DEM@kasi output=f20 coordinates=462224.489,4643573.293bserver_elevation=1.75 --overwrite
 
 ####可視領域ラスタの二値画像化
 #F01 reclass
@@ -55,6 +52,10 @@ r.reclass input=f11@kasi output=f11reclass rules=/home/ishii/GIS_Data/Analysis/2
 r.reclass input=f13@kasi output=f13reclass rules=/home/ishii/GIS_Data/Analysis/2018Futamata/grass/reclass.txt --overwrite
 #F15 reclass
 r.reclass input=f15@kasi output=f15reclass rules=/home/ishii/GIS_Data/Analysis/2018Futamata/grass/reclass.txt --overwrite
+#F19 reclass
+r.reclass input=f19@kasi output=f19reclass rules=/home/ishii/GIS_Data/Analysis/2018Futamata/grass/reclass.txt --overwrite
+#F20 reclass
+r.reclass input=f20@kasi output=f20reclass rules=/home/ishii/GIS_Data/Analysis/2018Futamata/grass/reclass.txt --overwrite
 
 
 ####可視領域ラスタのベクタ化
@@ -80,6 +81,10 @@ r.to.vect input=f11reclass@kasi output=f11 type=area --overwrite
 r.to.vect input=f13reclass@kasi output=f13 type=area --overwrite
 #F15
 r.to.vect input=f15reclass@kasi output=f15 type=area --overwrite
+#F19
+r.to.vect input=f19reclass@kasi output=f19 type=area --overwrite
+#F20
+r.to.vect input=f20reclass@kasi output=f20 type=area --overwrite
 
 ####可視領域ベクタの出力
 #F01
@@ -104,6 +109,11 @@ v.out.ogr input=f11@kasi type=area output=F11 format=ESRI_Shapefile --overwrite
 v.out.ogr input=f13@kasi type=area output=F13 format=ESRI_Shapefile --overwrite
 #F15
 v.out.ogr input=f15@kasi type=area output=F15 format=ESRI_Shapefile --overwrite
+#F19
+v.out.ogr input=f19@kasi type=area output=F19 format=ESRI_Shapefile --overwrite
+#F20
+v.out.ogr input=f20@kasi type=area output=F20 format=ESRI_Shapefile --overwrite
+
 
 
 #F08可視領域_視点3m
