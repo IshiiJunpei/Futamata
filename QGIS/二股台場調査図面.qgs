@@ -93,32 +93,32 @@
         <property key="expandedLegendNodes"/>
       </customproperties>
     </layer-tree-layer>
-    <layer-tree-layer name="f13" providerKey="ogr" expanded="1" id="f13_3bee909f_d68c_48eb_a365_e0307ebdf796" source="../grass/F13/f13.shp" checked="Qt::Unchecked">
+    <layer-tree-layer name="f13" providerKey="ogr" expanded="1" id="f13_3bee909f_d68c_48eb_a365_e0307ebdf796" source="../grass/F13/f13.shp" checked="Qt::Checked">
       <customproperties>
         <property key="expandedLegendNodes"/>
       </customproperties>
     </layer-tree-layer>
-    <layer-tree-layer name="f10" providerKey="ogr" expanded="1" id="f10_4e91d1e9_8b59_4c2f_a192_fbe25e38f26f" source="../grass/F10/f10.shp" checked="Qt::Unchecked">
+    <layer-tree-layer name="f10" providerKey="ogr" expanded="1" id="f10_4e91d1e9_8b59_4c2f_a192_fbe25e38f26f" source="../grass/F10/f10.shp" checked="Qt::Checked">
       <customproperties>
         <property key="expandedLegendNodes"/>
       </customproperties>
     </layer-tree-layer>
-    <layer-tree-layer name="f11" providerKey="ogr" expanded="1" id="f11_218f2ddc_dbf5_499c_bf4e_a037f4db857d" source="../grass/F11/f11.shp" checked="Qt::Unchecked">
+    <layer-tree-layer name="f11" providerKey="ogr" expanded="1" id="f11_218f2ddc_dbf5_499c_bf4e_a037f4db857d" source="../grass/F11/f11.shp" checked="Qt::Checked">
       <customproperties>
         <property key="expandedLegendNodes"/>
       </customproperties>
     </layer-tree-layer>
-    <layer-tree-layer name="f15" providerKey="ogr" expanded="1" id="f15_ccd5ae30_a14e_4349_8ecb_deabd359bb3d" source="../grass/F15/f15.shp" checked="Qt::Unchecked">
+    <layer-tree-layer name="f15" providerKey="ogr" expanded="1" id="f15_ccd5ae30_a14e_4349_8ecb_deabd359bb3d" source="../grass/F15/f15.shp" checked="Qt::Checked">
       <customproperties>
         <property key="expandedLegendNodes"/>
       </customproperties>
     </layer-tree-layer>
-    <layer-tree-layer name="f09" providerKey="ogr" expanded="1" id="f09_3546aab8_16cb_4567_a943_f83488bab739" source="../grass/F09/f09.shp" checked="Qt::Checked">
+    <layer-tree-layer name="f09" providerKey="ogr" expanded="1" id="f09_3546aab8_16cb_4567_a943_f83488bab739" source="../grass/F09/f09.shp" checked="Qt::Unchecked">
       <customproperties>
         <property key="expandedLegendNodes"/>
       </customproperties>
     </layer-tree-layer>
-    <layer-tree-layer name="f08" providerKey="ogr" expanded="1" id="f08_ff2f3c56_9fbb_476a_8fc2_43c74e7eee97" source="../grass/F08/f08.shp" checked="Qt::Checked">
+    <layer-tree-layer name="f08" providerKey="ogr" expanded="1" id="f08_ff2f3c56_9fbb_476a_8fc2_43c74e7eee97" source="../grass/F08/f08.shp" checked="Qt::Unchecked">
       <customproperties>
         <property key="expandedLegendNodes"/>
       </customproperties>
@@ -232,10 +232,10 @@
   <mapcanvas name="theMapCanvas" annotationsVisible="1">
     <units>meters</units>
     <extent>
-      <xmin>462152.75485555472550914</xmin>
-      <ymin>4643742.54779145587235689</ymin>
-      <xmax>462585.61654537421418354</xmax>
-      <ymax>4644072.19478149432688951</ymax>
+      <xmin>462411.53798156150151044</xmin>
+      <ymin>4644082.79649373888969421</ymin>
+      <xmax>462425.06490936840418726</xmax>
+      <ymax>4644093.09796217828989029</ymax>
     </extent>
     <rotation>0</rotation>
     <destinationsrs>
@@ -334,34 +334,34 @@
         <legendlayerfile isInOverview="0" visible="0" layerid="merge_sh_img_utm54_e045f62e_722c_46a7_9df7_7b273844819f"/>
       </filegroup>
     </legendlayer>
-    <legendlayer drawingOrder="-1" name="f13" open="true" checked="Qt::Unchecked" showFeatureCount="0">
+    <legendlayer drawingOrder="-1" name="f13" open="true" checked="Qt::Checked" showFeatureCount="0">
       <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" visible="0" layerid="f13_3bee909f_d68c_48eb_a365_e0307ebdf796"/>
+        <legendlayerfile isInOverview="0" visible="1" layerid="f13_3bee909f_d68c_48eb_a365_e0307ebdf796"/>
       </filegroup>
     </legendlayer>
-    <legendlayer drawingOrder="-1" name="f10" open="true" checked="Qt::Unchecked" showFeatureCount="0">
+    <legendlayer drawingOrder="-1" name="f10" open="true" checked="Qt::Checked" showFeatureCount="0">
       <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" visible="0" layerid="f10_4e91d1e9_8b59_4c2f_a192_fbe25e38f26f"/>
+        <legendlayerfile isInOverview="0" visible="1" layerid="f10_4e91d1e9_8b59_4c2f_a192_fbe25e38f26f"/>
       </filegroup>
     </legendlayer>
-    <legendlayer drawingOrder="-1" name="f11" open="true" checked="Qt::Unchecked" showFeatureCount="0">
+    <legendlayer drawingOrder="-1" name="f11" open="true" checked="Qt::Checked" showFeatureCount="0">
       <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" visible="0" layerid="f11_218f2ddc_dbf5_499c_bf4e_a037f4db857d"/>
+        <legendlayerfile isInOverview="0" visible="1" layerid="f11_218f2ddc_dbf5_499c_bf4e_a037f4db857d"/>
       </filegroup>
     </legendlayer>
-    <legendlayer drawingOrder="-1" name="f15" open="true" checked="Qt::Unchecked" showFeatureCount="0">
+    <legendlayer drawingOrder="-1" name="f15" open="true" checked="Qt::Checked" showFeatureCount="0">
       <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" visible="0" layerid="f15_ccd5ae30_a14e_4349_8ecb_deabd359bb3d"/>
+        <legendlayerfile isInOverview="0" visible="1" layerid="f15_ccd5ae30_a14e_4349_8ecb_deabd359bb3d"/>
       </filegroup>
     </legendlayer>
-    <legendlayer drawingOrder="-1" name="f09" open="true" checked="Qt::Checked" showFeatureCount="0">
+    <legendlayer drawingOrder="-1" name="f09" open="true" checked="Qt::Unchecked" showFeatureCount="0">
       <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" visible="1" layerid="f09_3546aab8_16cb_4567_a943_f83488bab739"/>
+        <legendlayerfile isInOverview="0" visible="0" layerid="f09_3546aab8_16cb_4567_a943_f83488bab739"/>
       </filegroup>
     </legendlayer>
-    <legendlayer drawingOrder="-1" name="f08" open="true" checked="Qt::Checked" showFeatureCount="0">
+    <legendlayer drawingOrder="-1" name="f08" open="true" checked="Qt::Unchecked" showFeatureCount="0">
       <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" visible="1" layerid="f08_ff2f3c56_9fbb_476a_8fc2_43c74e7eee97"/>
+        <legendlayerfile isInOverview="0" visible="0" layerid="f08_ff2f3c56_9fbb_476a_8fc2_43c74e7eee97"/>
       </filegroup>
     </legendlayer>
     <legendlayer drawingOrder="-1" name="f19" open="true" checked="Qt::Unchecked" showFeatureCount="0">
@@ -6388,7 +6388,9 @@ def my_form_open(dialog, layer, feature):
         </settings>
       </labeling>
       <customproperties>
-        <property key="dualview/previewExpressions" value="fid"/>
+        <property key="dualview/previewExpressions">
+          <value>fid</value>
+        </property>
         <property key="embeddedWidgets/count" value="0"/>
         <property key="variableNames"/>
         <property key="variableValues"/>
